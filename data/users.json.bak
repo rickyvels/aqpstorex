@@ -1,0 +1,11 @@
+[
+  {
+    "ruc": "20123456789",
+    "razonSocial": "Cliente Demo S.A.C.",
+    "email": "demo@aqpstorex.pe",
+    "phone": "51900000000",
+    "passwordHash": "f3a9dda8677b41f50e030dd2d8448a36:891984fceb175da40e6a0a4d7072a9cdd3b5c9df53b9a6f3ac06ca1840195a29bde344436e43e9e8e5742ca5400569a7f432c03aad9d7a6ec03d29a4e7391434",
+    "approved": true,
+    "createdAt": "2026-08-08T04:48:52.869Z"
+  }
+]
