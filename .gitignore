@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+build/
+.env
+.env.local
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+
+# Datos crudos descargados del proveedor (regenerables con npm run catalog:*)
+data/raw/
+data/images.failures.json
+
+# Base de usuarios local de desarrollo
+data/users.json

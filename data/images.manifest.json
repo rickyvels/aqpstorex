@@ -1,0 +1,2390 @@
+[
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/MOCHILAS.jpg",
+    "dest": "public/img/cat/mochilas.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/MOUSE.jpg",
+    "dest": "public/img/cat/mouse.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/TECLADO.jpg",
+    "dest": "public/img/cat/teclado.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/REDES-2.jpg",
+    "dest": "public/img/cat/redes-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/PARLANTES.jpg",
+    "dest": "public/img/cat/parlantes.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/LAPTOPS-1.jpg",
+    "dest": "public/img/cat/laptops-1.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/OTROS.jpg",
+    "dest": "public/img/cat/otros.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/SUMINISTROS.jpg",
+    "dest": "public/img/cat/suministros.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/ADAPTADORES.jpg",
+    "dest": "public/img/cat/adaptadores.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/DISCO-DURO.jpg",
+    "dest": "public/img/cat/disco-duro.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/CASES-2.jpg",
+    "dest": "public/img/cat/cases-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/IMPRESORAS.jpg",
+    "dest": "public/img/cat/impresoras.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/CAMARAS-DE-SEGURIDAD.jpg",
+    "dest": "public/img/cat/camaras-de-seguridad.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/MEMORIAS.jpg",
+    "dest": "public/img/cat/memorias.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/USB-MICROSD.jpg",
+    "dest": "public/img/cat/usb-microsd.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/ESTABILIZADOR.jpg",
+    "dest": "public/img/cat/estabilizador.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/SERVIDORES.jpg",
+    "dest": "public/img/cat/servidores.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/MAINBOARD.jpg",
+    "dest": "public/img/cat/mainboard.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/FUENTE.jpg",
+    "dest": "public/img/cat/fuente.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/TARJETA-GRAFICA.jpg",
+    "dest": "public/img/cat/tarjeta-grafica.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/SWITCH.jpg",
+    "dest": "public/img/cat/switch.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/PROCESADORES.jpg",
+    "dest": "public/img/cat/procesadores.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/MONITORES.jpg",
+    "dest": "public/img/cat/monitores.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/AUDIFONOS-1.jpg",
+    "dest": "public/img/cat/audifonos-1.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/ALL-IN-ONE.jpg",
+    "dest": "public/img/cat/all-in-one.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/dashcam.jpg",
+    "dest": "public/img/cat/dashcam.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/RACK.jpg",
+    "dest": "public/img/cat/rack.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/SOFTWARE.jpg",
+    "dest": "public/img/cat/software.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/TABLETA.jpg",
+    "dest": "public/img/cat/tableta.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/COOLER.jpg",
+    "dest": "public/img/cat/cooler.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/PROYECTORES.jpg",
+    "dest": "public/img/cat/proyectores.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/TABLET.jpg",
+    "dest": "public/img/cat/tablet.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/MULTIGRABADOR.jpg",
+    "dest": "public/img/cat/multigrabador.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/pc.png",
+    "dest": "public/img/cat/pc.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/1700000042.jpg",
+    "dest": "public/img/p/1700000042.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/1700000042-2.jpg",
+    "dest": "public/img/p/1700000042-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/1700000042-3.jpg",
+    "dest": "public/img/p/1700000042-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/1700000042-4.jpg",
+    "dest": "public/img/p/1700000042-4.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/1753502395.jpg",
+    "dest": "public/img/p/1753502395.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/1753502395-2.jpg",
+    "dest": "public/img/p/1753502395-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0182500009.jpg",
+    "dest": "public/img/p/0182500009.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0182500009-2.jpg",
+    "dest": "public/img/p/0182500009-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0182500009-3.jpg",
+    "dest": "public/img/p/0182500009-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/0101502044.png",
+    "dest": "public/img/p/0101502044.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/0101502044-2.png",
+    "dest": "public/img/p/0101502044-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/0101502044-3.png",
+    "dest": "public/img/p/0101502044-3.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/0102500044.png",
+    "dest": "public/img/p/0102500044.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/0101502051.png",
+    "dest": "public/img/p/0101502051.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502261.jpg",
+    "dest": "public/img/p/0152502261.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502261-2.jpg",
+    "dest": "public/img/p/0152502261-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502261-3.jpg",
+    "dest": "public/img/p/0152502261-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502323.png",
+    "dest": "public/img/p/0152502323.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/0152502550.png",
+    "dest": "public/img/p/0152502550.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/0152502550-2.png",
+    "dest": "public/img/p/0152502550-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/0152502550-3.png",
+    "dest": "public/img/p/0152502550-3.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/Archer-T4UUN3.0_01_large_1528979-1.png",
+    "dest": "public/img/p/archer-t4uun3-0-01-large-1528979-1.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/Archer-T4UUN3.0_02_large_1528979.png",
+    "dest": "public/img/p/archer-t4uun3-0-02-large-1528979.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/Archer-T4UUN3.0_05_large_1528979.png",
+    "dest": "public/img/p/archer-t4uun3-0-05-large-1528979.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502417.jpg",
+    "dest": "public/img/p/0152502417.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502417-2.jpg",
+    "dest": "public/img/p/0152502417-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502417-3.jpg",
+    "dest": "public/img/p/0152502417-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502249.jpg",
+    "dest": "public/img/p/0152502249.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502379-3.jpg",
+    "dest": "public/img/p/0152502379-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502379-2.jpg",
+    "dest": "public/img/p/0152502379-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502379.jpg",
+    "dest": "public/img/p/0152502379.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/0152502517.jpg",
+    "dest": "public/img/p/0152502517.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/0100000797-1.png",
+    "dest": "public/img/p/0100000797-1.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/0152502548.png",
+    "dest": "public/img/p/0152502548.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502265.jpg",
+    "dest": "public/img/p/0152502265.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502265-2.jpg",
+    "dest": "public/img/p/0152502265-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502344.jpg",
+    "dest": "public/img/p/0152502344.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502344-2.jpg",
+    "dest": "public/img/p/0152502344-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502344-3.jpg",
+    "dest": "public/img/p/0152502344-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502342.jpg",
+    "dest": "public/img/p/0152502342.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502342-2.jpg",
+    "dest": "public/img/p/0152502342-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/0152502464.jpg",
+    "dest": "public/img/p/0152502464.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502372-3.jpg",
+    "dest": "public/img/p/0152502372-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502372-2.jpg",
+    "dest": "public/img/p/0152502372-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502372.jpg",
+    "dest": "public/img/p/0152502372.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/0152502552.png",
+    "dest": "public/img/p/0152502552.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0101502039.jpg",
+    "dest": "public/img/p/0101502039.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0101502039-2.jpg",
+    "dest": "public/img/p/0101502039-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/CQ1V5LTABM.jpg",
+    "dest": "public/img/p/cq1v5ltabm.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/700J7LSABM.png",
+    "dest": "public/img/p/700j7lsabm.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/700J7LSABM-2.png",
+    "dest": "public/img/p/700j7lsabm-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/KL1042DDAFS.png",
+    "dest": "public/img/p/kl1042ddafs.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/KL1042DDAFS-V.jpg",
+    "dest": "public/img/p/kl1042ddafs-v.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/KWH-750CO.jpg",
+    "dest": "public/img/p/kwh-750co.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/KWH-750CO-3-1.jpg",
+    "dest": "public/img/p/kwh-750co-3-1.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/KWH-750CO-2-1.jpg",
+    "dest": "public/img/p/kwh-750co-2-1.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/CYB-HG508.jpg",
+    "dest": "public/img/p/cyb-hg508.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/981-001017.jpg",
+    "dest": "public/img/p/981-001017.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/981-001017-2.jpg",
+    "dest": "public/img/p/981-001017-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/981-001017-3.jpg",
+    "dest": "public/img/p/981-001017-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/XTH-D660MK.jpg",
+    "dest": "public/img/p/xth-d660mk.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/XTH-D274PS.jpg",
+    "dest": "public/img/p/xth-d274ps.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/XTH-D274PS-3.jpg",
+    "dest": "public/img/p/xth-d274ps-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/XTH-D274PS-2.jpg",
+    "dest": "public/img/p/xth-d274ps-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/1770500229.png",
+    "dest": "public/img/p/1770500229.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/1770500227.png",
+    "dest": "public/img/p/1770500227.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/1770500251.png",
+    "dest": "public/img/p/1770500251.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/1770500252.png",
+    "dest": "public/img/p/1770500252.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/1770500251-2.png",
+    "dest": "public/img/p/1770500251-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/04/1770500261.jpg",
+    "dest": "public/img/p/1770500261.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/0170500868.png",
+    "dest": "public/img/p/0170500868.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500726.jpg",
+    "dest": "public/img/p/0170500726.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500726-2.jpg",
+    "dest": "public/img/p/0170500726-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500726-3.jpg",
+    "dest": "public/img/p/0170500726-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500726-4.jpg",
+    "dest": "public/img/p/0170500726-4.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500726-5.jpg",
+    "dest": "public/img/p/0170500726-5.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500726-6.jpg",
+    "dest": "public/img/p/0170500726-6.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500726-7.jpg",
+    "dest": "public/img/p/0170500726-7.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500726-8.jpg",
+    "dest": "public/img/p/0170500726-8.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/1770500230.png",
+    "dest": "public/img/p/1770500230.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/0170500880.jpg",
+    "dest": "public/img/p/0170500880.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/1770500258.png",
+    "dest": "public/img/p/1770500258.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500372.jpg",
+    "dest": "public/img/p/0170500372.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500372-2.jpg",
+    "dest": "public/img/p/0170500372-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500372-3.jpg",
+    "dest": "public/img/p/0170500372-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500372-4.jpg",
+    "dest": "public/img/p/0170500372-4.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500372-5.jpg",
+    "dest": "public/img/p/0170500372-5.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500372-6.jpg",
+    "dest": "public/img/p/0170500372-6.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500372-7.jpg",
+    "dest": "public/img/p/0170500372-7.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0170500372-8.jpg",
+    "dest": "public/img/p/0170500372-8.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1770500151.jpg",
+    "dest": "public/img/p/1770500151.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1770500151-9.jpg",
+    "dest": "public/img/p/1770500151-9.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1770500151-8.jpg",
+    "dest": "public/img/p/1770500151-8.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1770500151-7.jpg",
+    "dest": "public/img/p/1770500151-7.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1770500151-6.jpg",
+    "dest": "public/img/p/1770500151-6.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1770500151-5.jpg",
+    "dest": "public/img/p/1770500151-5.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1770500151-4.jpg",
+    "dest": "public/img/p/1770500151-4.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1770500151-3.jpg",
+    "dest": "public/img/p/1770500151-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1770500151-2.jpg",
+    "dest": "public/img/p/1770500151-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/0170500892.png",
+    "dest": "public/img/p/0170500892.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/1770500260.png",
+    "dest": "public/img/p/1770500260.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/CYB-WC1001.png",
+    "dest": "public/img/p/cyb-wc1001.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/960-000694.jpg",
+    "dest": "public/img/p/960-000694.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/960-000694-2.jpg",
+    "dest": "public/img/p/960-000694-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/960-000694-3.jpg",
+    "dest": "public/img/p/960-000694-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/MIC-W300.png",
+    "dest": "public/img/p/mic-w300.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/10/MIC-W701.png",
+    "dest": "public/img/p/mic-w701.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/MIC-W701TR.jpg",
+    "dest": "public/img/p/mic-w701tr.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/MIC-W700.png",
+    "dest": "public/img/p/mic-w700.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/MIC-W700-2.png",
+    "dest": "public/img/p/mic-w700-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/04/MWVV3AM-A.jpg",
+    "dest": "public/img/p/mwvv3am-a.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/CYB-C1005.jpg",
+    "dest": "public/img/p/cyb-c1005.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/05/CBX5008R.jpg",
+    "dest": "public/img/p/cbx5008r.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/CBX-5008RW.jpg",
+    "dest": "public/img/p/cbx-5008rw.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/05/ENC3000.jpg",
+    "dest": "public/img/p/enc3000.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/ENK-C3006.jpg",
+    "dest": "public/img/p/enk-c3006.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/ENC-5008.jpg",
+    "dest": "public/img/p/enc-5008.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/ENC-1018.jpg",
+    "dest": "public/img/p/enc-1018.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/ENK-5000.jpg",
+    "dest": "public/img/p/enk-5000.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/05/ENK-C2001.jpg",
+    "dest": "public/img/p/enk-c2001.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/ENC-1000.jpg",
+    "dest": "public/img/p/enc-1000.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/ENC-3008.jpg",
+    "dest": "public/img/p/enc-3008.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/TE-1033S.jpg",
+    "dest": "public/img/p/te-1033s.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/TE-1033S-2.jpg",
+    "dest": "public/img/p/te-1033s-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/TE-1034S.jpg",
+    "dest": "public/img/p/te-1034s.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/10/TE-1175N.png",
+    "dest": "public/img/p/te-1175n.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/TE-1038S.jpg",
+    "dest": "public/img/p/te-1038s.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/06/TE-1035S.jpg",
+    "dest": "public/img/p/te-1035s.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/TE-1036S.jpg",
+    "dest": "public/img/p/te-1036s.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/PAD-H8.jpg",
+    "dest": "public/img/p/pad-h8.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/PAD-Q8.jpg",
+    "dest": "public/img/p/pad-q8.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/HDTB.jpg",
+    "dest": "public/img/p/hdtb.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/HDTB540XK3CA.jpg",
+    "dest": "public/img/p/hdtb540xk3ca.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/HDTB-2.jpg",
+    "dest": "public/img/p/hdtb-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/06/HDTP310XK3AA.jpg",
+    "dest": "public/img/p/hdtp310xk3aa.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/KPM-310.png",
+    "dest": "public/img/p/kpm-310.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/FVR-1012.jpg",
+    "dest": "public/img/p/fvr-1012.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/FVR-1012-2.jpg",
+    "dest": "public/img/p/fvr-1012-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/FVR-1012-3.jpg",
+    "dest": "public/img/p/fvr-1012-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/FVR-1222USB.jpg",
+    "dest": "public/img/p/fvr-1222usb.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/FVR-1222USB-2.jpg",
+    "dest": "public/img/p/fvr-1222usb-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/FVR-2202.jpg",
+    "dest": "public/img/p/fvr-2202.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/04/FVR-3002.jpg",
+    "dest": "public/img/p/fvr-3002.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/FVR-902-2.jpg",
+    "dest": "public/img/p/fvr-902-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0153500484.png",
+    "dest": "public/img/p/0153500484.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0153500484-3.png",
+    "dest": "public/img/p/0153500484-3.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0153500484-2.png",
+    "dest": "public/img/p/0153500484-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0153500490.png",
+    "dest": "public/img/p/0153500490.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/04/CF-SC140FB-RGB.jpg",
+    "dest": "public/img/p/cf-sc140fb-rgb.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/04/CF-SC140FB-RGB-2.jpg",
+    "dest": "public/img/p/cf-sc140fb-rgb-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/04/CF-SC140FB-RGB-3.jpg",
+    "dest": "public/img/p/cf-sc140fb-rgb-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/PSA-F600W.jpg",
+    "dest": "public/img/p/psa-f600w.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/PSU-SX2000.jpg",
+    "dest": "public/img/p/psu-sx2000.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/MIC-P80BPW.jpg",
+    "dest": "public/img/p/mic-p80bpw.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/08/MIC-P80BA-750W.png",
+    "dest": "public/img/p/mic-p80ba-750w.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/306-7ZPTX23-HD8-2.jpg",
+    "dest": "public/img/p/306-7zptx23-hd8-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/306-7ZPHX23-HD8-2.jpg",
+    "dest": "public/img/p/306-7zphx23-hd8-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/06/306-7ZP8A23-CE0.jpg",
+    "dest": "public/img/p/306-7zp8a23-ce0.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/0102500046.png",
+    "dest": "public/img/p/0102500046.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/C11CH96301.jpg",
+    "dest": "public/img/p/c11ch96301.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/07/1F3Y2AAKY.jpg",
+    "dest": "public/img/p/1f3y2aaky.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/DCP-T430W.jpg",
+    "dest": "public/img/p/dcp-t430w.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/DCP-T430W-3.jpg",
+    "dest": "public/img/p/dcp-t430w-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/DCP-T430W-4.jpg",
+    "dest": "public/img/p/dcp-t430w-4.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/DCP-T530DW.jpg",
+    "dest": "public/img/p/dcp-t530dw.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/DCP-T530DW-2.jpg",
+    "dest": "public/img/p/dcp-t530dw-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/DCP-T530DW-3.jpg",
+    "dest": "public/img/p/dcp-t530dw-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/DCP-T730DW.jpg",
+    "dest": "public/img/p/dcp-t730dw.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/DCP-T730DW-2.jpg",
+    "dest": "public/img/p/dcp-t730dw-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/DCP-T730DW-3.jpg",
+    "dest": "public/img/p/dcp-t730dw-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/MFC-T4500DW.jpg",
+    "dest": "public/img/p/mfc-t4500dw.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/MFC-T930DW.jpg",
+    "dest": "public/img/p/mfc-t930dw.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/C11CJ68301.jpg",
+    "dest": "public/img/p/c11cj68301.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/C11CJ67304.jpg",
+    "dest": "public/img/p/c11cj67304.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/07/C11CL62301.jpg",
+    "dest": "public/img/p/c11cl62301.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/10/C11CL41301.png",
+    "dest": "public/img/p/c11cl41301.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/10/C11CL41301-2.png",
+    "dest": "public/img/p/c11cl41301-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/10/C11CL41301-3.png",
+    "dest": "public/img/p/c11cl41301-3.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/C11CK57301.jpg",
+    "dest": "public/img/p/c11ck57301.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/C11CL43301.jpg",
+    "dest": "public/img/p/c11cl43301.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/C11CL43301-2.jpg",
+    "dest": "public/img/p/c11cl43301-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/C11CL43301-3.jpg",
+    "dest": "public/img/p/c11cl43301-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/C11CJ20303.png",
+    "dest": "public/img/p/c11cj20303.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/C11CJ20303-2.png",
+    "dest": "public/img/p/c11cj20303-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/C11CJ20303-3.png",
+    "dest": "public/img/p/c11cj20303-3.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/10/RPT004.png",
+    "dest": "public/img/p/rpt004.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/10/RPT004-2.png",
+    "dest": "public/img/p/rpt004-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/10/RPT004-3.png",
+    "dest": "public/img/p/rpt004-3.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/C31CL45001.png",
+    "dest": "public/img/p/c31cl45001.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/C31CL45001-2.png",
+    "dest": "public/img/p/c31cl45001-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/06/CBX-GT1802R.jpg",
+    "dest": "public/img/p/cbx-gt1802r.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/AB-C5.jpg",
+    "dest": "public/img/p/ab-c5.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/920-004432-2.jpg",
+    "dest": "public/img/p/920-004432-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/920-004432.jpg",
+    "dest": "public/img/p/920-004432.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/ENT-G1000NB.png",
+    "dest": "public/img/p/ent-g1000nb.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/ENT-G1000-3.png",
+    "dest": "public/img/p/ent-g1000-3.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/08/ENT-G1000-4.png",
+    "dest": "public/img/p/ent-g1000-4.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/MIC-GT1003.png",
+    "dest": "public/img/p/mic-gt1003.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/83JE00Q8LM.jpg",
+    "dest": "public/img/p/83je00q8lm.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/83JE00Q8LM-2.jpg",
+    "dest": "public/img/p/83je00q8lm-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/83K1016CLM.jpg",
+    "dest": "public/img/p/83k1016clm.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/12/SC050.png",
+    "dest": "public/img/p/sc050.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/12/SC050-2.png",
+    "dest": "public/img/p/sc050-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/12/SC100-1.png",
+    "dest": "public/img/p/sc100-1.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/12/SC100-1-2.png",
+    "dest": "public/img/p/sc100-1-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/04/SC310BT.png",
+    "dest": "public/img/p/sc310bt.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/MHFF4E-A.jpg",
+    "dest": "public/img/p/mhff4e-a.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/MHFA4E-A.jpg",
+    "dest": "public/img/p/mhfa4e-a.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/07/90MB1I20-M0EAY0.jpg",
+    "dest": "public/img/p/90mb1i20-m0eay0.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/07/90MB1I20-M0EAY0-2.jpg",
+    "dest": "public/img/p/90mb1i20-m0eay0-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/07/90MB1I20-M0EAY0-3.jpg",
+    "dest": "public/img/p/90mb1i20-m0eay0-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/12/90MB1F40-M0EAY0.png",
+    "dest": "public/img/p/90mb1f40-m0eay0.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/12/90MB1F40-M0EAY0-2.png",
+    "dest": "public/img/p/90mb1f40-m0eay0-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/12/90MB1F40-M0EAY0-3.png",
+    "dest": "public/img/p/90mb1f40-m0eay0-3.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/90MB1GA0-M0EAY0.png",
+    "dest": "public/img/p/90mb1ga0-m0eay0.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/911-7E36-002.png",
+    "dest": "public/img/p/911-7e36-002.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/B760M-E.jpg",
+    "dest": "public/img/p/b760m-e.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/B760M-E-2.jpg",
+    "dest": "public/img/p/b760m-e-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/B760M-E-3.jpg",
+    "dest": "public/img/p/b760m-e-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/12/911-7D48-071.png",
+    "dest": "public/img/p/911-7d48-071.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/12/911-7D48-071-2.png",
+    "dest": "public/img/p/911-7d48-071-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/911-7E44-013-4.jpg",
+    "dest": "public/img/p/911-7e44-013-4.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/911-7E44-013-2.jpg",
+    "dest": "public/img/p/911-7e44-013-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/911-7E44-013-3.jpg",
+    "dest": "public/img/p/911-7e44-013-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/911-7E64-001.jpg",
+    "dest": "public/img/p/911-7e64-001.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/911-7E64-001-2.jpg",
+    "dest": "public/img/p/911-7e64-001-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/911-7E64-001-3.jpg",
+    "dest": "public/img/p/911-7e64-001-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/06/KC-U2L128-7LB.jpg",
+    "dest": "public/img/p/kc-u2l128-7lb.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/06/KC-U2L128-7LN.jpg",
+    "dest": "public/img/p/kc-u2l128-7ln.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/06/KC-U2L64-7LB.jpg",
+    "dest": "public/img/p/kc-u2l64-7lb.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/06/KC-U2L64-7LG.jpg",
+    "dest": "public/img/p/kc-u2l64-7lg.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/06/KC-U2L128-7LP.jpg",
+    "dest": "public/img/p/kc-u2l128-7lp.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/DTXM64GB.jpg",
+    "dest": "public/img/p/dtxm64gb.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/DTXS-64GB.png",
+    "dest": "public/img/p/dtxs-64gb.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/KC-U2G128-5R.jpg",
+    "dest": "public/img/p/kc-u2g128-5r.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/DTX-128GB.jpg",
+    "dest": "public/img/p/dtx-128gb.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/12/DTXS-128GB.png",
+    "dest": "public/img/p/dtxs-128gb.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/DTX-64GB.jpg",
+    "dest": "public/img/p/dtx-64gb.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/SDCS3-512GB.png",
+    "dest": "public/img/p/sdcs3-512gb.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/SDCS3-64GB.png",
+    "dest": "public/img/p/sdcs3-64gb.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/SDSQXAO-256G-GNCZN.jpg",
+    "dest": "public/img/p/sdsqxao-256g-gnczn.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/HSC516U48C2-16GB.png",
+    "dest": "public/img/p/hsc516u48c2-16gb.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/KF556C40BB-16.jpg",
+    "dest": "public/img/p/kf556c40bb-16.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/KF432C16BB-8.jpg",
+    "dest": "public/img/p/kf432c16bb-8.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/PSD516G560081.png",
+    "dest": "public/img/p/psd516g560081.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/PSD58G560082.png",
+    "dest": "public/img/p/psd58g560082.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/PSP516G560081H1-2.jpg",
+    "dest": "public/img/p/psp516g560081h1-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/DIMM.png",
+    "dest": "public/img/p/dimm.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/KVR32S22D8-16WP.png",
+    "dest": "public/img/p/kvr32s22d8-16wp.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/05/KVR56S46BS8-16.jpg",
+    "dest": "public/img/p/kvr56s46bs8-16.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/KF432S20IB-16-2.png",
+    "dest": "public/img/p/kf432s20ib-16-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/04/PSD48G320082S.jpg",
+    "dest": "public/img/p/psd48g320082s.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/JD-808.jpg",
+    "dest": "public/img/p/jd-808.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/MIC-MF-27FF-144-2.png",
+    "dest": "public/img/p/mic-mf-27ff-144-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/MIC-DG24FC-100.png",
+    "dest": "public/img/p/mic-dg24fc-100.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/MIC-DG27FC-100.png",
+    "dest": "public/img/p/mic-dg27fc-100.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/LS24DG300ELXPE.jpg",
+    "dest": "public/img/p/ls24dg300elxpe.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/CYB-M203.png",
+    "dest": "public/img/p/cyb-m203.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/CYB-M500-3M-BLACK.png",
+    "dest": "public/img/p/cyb-m500-3m-black.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/CBX-M613.png",
+    "dest": "public/img/p/cbx-m613.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/CYB-M201.jpg",
+    "dest": "public/img/p/cyb-m201.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/08/CYB-M234R.png",
+    "dest": "public/img/p/cyb-m234r.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/CBX-M606.png",
+    "dest": "public/img/p/cbx-m606.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/CYB-M307.png",
+    "dest": "public/img/p/cyb-m307.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/CYB-M230.jpg",
+    "dest": "public/img/p/cyb-m230.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/CYB-300-2M-B-BLUE.png",
+    "dest": "public/img/p/cyb-300-2m-b-blue.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/CYB-300-2M-B-RED.png",
+    "dest": "public/img/p/cyb-300-2m-b-red.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/CYB-M206.png",
+    "dest": "public/img/p/cyb-m206.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/CYB-M204SB.png",
+    "dest": "public/img/p/cyb-m204sb.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/CYB-M204SRB.png",
+    "dest": "public/img/p/cyb-m204srb.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/CYB-M104.png",
+    "dest": "public/img/p/cyb-m104.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/CYB-M103.png",
+    "dest": "public/img/p/cyb-m103.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/CYB-M103K.png",
+    "dest": "public/img/p/cyb-m103k.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/10/CYB-M103XR.png",
+    "dest": "public/img/p/cyb-m103xr.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/10/CYB-M312K.png",
+    "dest": "public/img/p/cyb-m312k.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/10/CYB-M101B.png",
+    "dest": "public/img/p/cyb-m101b.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/10/CYB-M101P.png",
+    "dest": "public/img/p/cyb-m101p.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/CYB-M101R.png",
+    "dest": "public/img/p/cyb-m101r.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/CYB-M709-3M-BLACK.png",
+    "dest": "public/img/p/cyb-m709-3m-black.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/CYB-M709-3M-B-GRAY.png",
+    "dest": "public/img/p/cyb-m709-3m-b-gray.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/EKM-500.png",
+    "dest": "public/img/p/ekm-500.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/ENK-M205-3B.png",
+    "dest": "public/img/p/enk-m205-3b.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/ENK200BL.jpg",
+    "dest": "public/img/p/enk200bl.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/ENK200B.jpg",
+    "dest": "public/img/p/enk200b.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/EKM-100K.png",
+    "dest": "public/img/p/ekm-100k.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/EKM-203K.jpg",
+    "dest": "public/img/p/ekm-203k.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/EKM-300.jpg",
+    "dest": "public/img/p/ekm-300.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/EKM-313.jpg",
+    "dest": "public/img/p/ekm-313.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/MIC-M816.png",
+    "dest": "public/img/p/mic-m816.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/CBX-M502W.png",
+    "dest": "public/img/p/cbx-m502w.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/31010026400.jpg",
+    "dest": "public/img/p/31010026400.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/31010116100.jpg",
+    "dest": "public/img/p/31010116100.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/31010116103.jpg",
+    "dest": "public/img/p/31010116103.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/31010116105.jpg",
+    "dest": "public/img/p/31010116105.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/31010116104.jpg",
+    "dest": "public/img/p/31010116104.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/31010116102.jpg",
+    "dest": "public/img/p/31010116102.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/31030027400.jpg",
+    "dest": "public/img/p/31030027400.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/GM-1070-2.jpg",
+    "dest": "public/img/p/gm-1070-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/GM-1070.jpg",
+    "dest": "public/img/p/gm-1070.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006756.jpg",
+    "dest": "public/img/p/910-006756.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006756-2.jpg",
+    "dest": "public/img/p/910-006756-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006756-3.jpg",
+    "dest": "public/img/p/910-006756-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006662.jpg",
+    "dest": "public/img/p/910-006662.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006662-2.jpg",
+    "dest": "public/img/p/910-006662-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006662-3.jpg",
+    "dest": "public/img/p/910-006662-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006757.jpg",
+    "dest": "public/img/p/910-006757.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006757-2.jpg",
+    "dest": "public/img/p/910-006757-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006757-3.jpg",
+    "dest": "public/img/p/910-006757-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-004940.jpg",
+    "dest": "public/img/p/910-004940.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-004940-2.jpg",
+    "dest": "public/img/p/910-004940-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-004940-3.jpg",
+    "dest": "public/img/p/910-004940-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-004800.jpg",
+    "dest": "public/img/p/910-004800.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-004800-2.jpg",
+    "dest": "public/img/p/910-004800-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-004800-3.jpg",
+    "dest": "public/img/p/910-004800-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-004800-4.jpg",
+    "dest": "public/img/p/910-004800-4.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006863.jpg",
+    "dest": "public/img/p/910-006863.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006863-2.jpg",
+    "dest": "public/img/p/910-006863-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006863-3.jpg",
+    "dest": "public/img/p/910-006863-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006863-4.jpg",
+    "dest": "public/img/p/910-006863-4.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-004941.jpg",
+    "dest": "public/img/p/910-004941.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-004941-2.jpg",
+    "dest": "public/img/p/910-004941-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-004941-3.jpg",
+    "dest": "public/img/p/910-004941-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006862.jpg",
+    "dest": "public/img/p/910-006862.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006862-2.jpg",
+    "dest": "public/img/p/910-006862-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006862-3.jpg",
+    "dest": "public/img/p/910-006862-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006862-4.jpg",
+    "dest": "public/img/p/910-006862-4.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006864.jpg",
+    "dest": "public/img/p/910-006864.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006864-2.jpg",
+    "dest": "public/img/p/910-006864-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-006864-3.jpg",
+    "dest": "public/img/p/910-006864-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-003636.jpg",
+    "dest": "public/img/p/910-003636.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-003636-2.jpg",
+    "dest": "public/img/p/910-003636-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-003636-3.jpg",
+    "dest": "public/img/p/910-003636-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-003636.png",
+    "dest": "public/img/p/910-003636.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/910-003635-4.png",
+    "dest": "public/img/p/910-003635-4.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/910-004053.jpg",
+    "dest": "public/img/p/910-004053.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/MIC-GM859.png",
+    "dest": "public/img/p/mic-gm859.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/MIC-GM805.png",
+    "dest": "public/img/p/mic-gm805.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/MIC-M723-2M.png",
+    "dest": "public/img/p/mic-m723-2m.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/MIC-GM802.png",
+    "dest": "public/img/p/mic-gm802.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/MIC-GM812.jpg",
+    "dest": "public/img/p/mic-gm812.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/XTM-310GN.jpg",
+    "dest": "public/img/p/xtm-310gn.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/GP65NB60.jpg",
+    "dest": "public/img/p/gp65nb60.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/X633.png",
+    "dest": "public/img/p/x633.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/SIG-X5.png",
+    "dest": "public/img/p/sig-x5.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/XTA-M15SG-XXL.jpg",
+    "dest": "public/img/p/xta-m15sg-xxl.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/XTA-M15SG-XXL-2.jpg",
+    "dest": "public/img/p/xta-m15sg-xxl-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/XTA-M15SG-XXL-3.jpg",
+    "dest": "public/img/p/xta-m15sg-xxl-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/06/CBX-S301W.jpg",
+    "dest": "public/img/p/cbx-s301w.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/CYB-S105.png",
+    "dest": "public/img/p/cyb-s105.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/ENS-301.png",
+    "dest": "public/img/p/ens-301.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/ENS-300.png",
+    "dest": "public/img/p/ens-300.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/ENK-S302-2.png",
+    "dest": "public/img/p/enk-s302-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/CK4.jpg",
+    "dest": "public/img/p/ck4.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/MAX-S200.png",
+    "dest": "public/img/p/max-s200.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/MAX-S202.png",
+    "dest": "public/img/p/max-s202.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/MIC-S321.png",
+    "dest": "public/img/p/mic-s321.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/MIC-S7401BT.png",
+    "dest": "public/img/p/mic-s7401bt.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/MIC-S313.png",
+    "dest": "public/img/p/mic-s313.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/06/MIC-S300.jpg",
+    "dest": "public/img/p/mic-s300.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/MIC-S302.png",
+    "dest": "public/img/p/mic-s302.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/MIC-S7528.png",
+    "dest": "public/img/p/mic-s7528.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/MIC-S310.jpg",
+    "dest": "public/img/p/mic-s310.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/08/MIC-S315B.png",
+    "dest": "public/img/p/mic-s315b.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/08/MIC-S315R.png",
+    "dest": "public/img/p/mic-s315r.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/04/CBX-TP4.jpg",
+    "dest": "public/img/p/cbx-tp4.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/10/NH.QN9AL.010-2.png",
+    "dest": "public/img/p/nh-qn9al-010-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/90NR0LN1-M000N0.png",
+    "dest": "public/img/p/90nr0ln1-m000n0.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/90NR0LN1-M000N0-2.png",
+    "dest": "public/img/p/90nr0ln1-m000n0-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/02/90NR0LN1-M000N0-3.png",
+    "dest": "public/img/p/90nr0ln1-m000n0-3.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/04/90NR0MZ6-M00B80.jpg",
+    "dest": "public/img/p/90nr0mz6-m00b80.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/04/9S8U5LAABM.jpg",
+    "dest": "public/img/p/9s8u5laabm.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/A9BS1LT.png",
+    "dest": "public/img/p/a9bs1lt.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/04/B77CBLTABM.jpg",
+    "dest": "public/img/p/b77cbltabm.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/A14M1LAABM.png",
+    "dest": "public/img/p/a14m1laabm.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/A14M1LAABM-2.png",
+    "dest": "public/img/p/a14m1laabm-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/A14M1LAABM-3.png",
+    "dest": "public/img/p/a14m1laabm-3.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/10/BT4F2LAABM.png",
+    "dest": "public/img/p/bt4f2laabm.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/BT4F7LAABM.png",
+    "dest": "public/img/p/bt4f7laabm.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/BT4F7LAABM-3.png",
+    "dest": "public/img/p/bt4f7laabm-3.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/BT4F7LAABM-2.png",
+    "dest": "public/img/p/bt4f7laabm-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/06/83K101FFLM.jpg",
+    "dest": "public/img/p/83k101fflm.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/06/83K101FFLM-2.jpg",
+    "dest": "public/img/p/83k101fflm-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/04/83S0004HLM.png",
+    "dest": "public/img/p/83s0004hlm.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/04/83S0004HLM-2.png",
+    "dest": "public/img/p/83s0004hlm-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/83JG007VLM.png",
+    "dest": "public/img/p/83jg007vlm.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/04/82XQ00N5LM.jpg",
+    "dest": "public/img/p/82xq00n5lm.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/82YU00X6LM.jpg",
+    "dest": "public/img/p/82yu00x6lm.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/83GW005LLD.jpg",
+    "dest": "public/img/p/83gw005lld.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/83GW005LLD-3.jpg",
+    "dest": "public/img/p/83gw005lld-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/83GW005LLD-2.jpg",
+    "dest": "public/img/p/83gw005lld-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/04/ML3-146.jpg",
+    "dest": "public/img/p/ml3-146.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/04/9S7-1587C1-412.jpg",
+    "dest": "public/img/p/9s7-1587c1-412.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/100-100001488BOX.jpg",
+    "dest": "public/img/p/100-100001488box.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/100-100000931BOX.png",
+    "dest": "public/img/p/100-100000931box.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/100-100001236SBX.png",
+    "dest": "public/img/p/100-100001236sbx.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/BX8071512100F.jpg",
+    "dest": "public/img/p/bx8071512100f.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/BX8071512400F.jpg",
+    "dest": "public/img/p/bx8071512400f.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/BX8071514400.jpg",
+    "dest": "public/img/p/bx8071514400.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/BX8071514400F.jpg",
+    "dest": "public/img/p/bx8071514400f.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/H982A.jpg",
+    "dest": "public/img/p/h982a.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/GAMER-36-ARC-360.jpg",
+    "dest": "public/img/p/gamer-36-arc-360.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/TL-WR840N-1.jpg",
+    "dest": "public/img/p/tl-wr840n-1.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/1750502341-2.jpg",
+    "dest": "public/img/p/1750502341-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/1750503180.png",
+    "dest": "public/img/p/1750503180.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1750502959.png",
+    "dest": "public/img/p/1750502959.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1750502959-2.png",
+    "dest": "public/img/p/1750502959-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1750502637.jpg",
+    "dest": "public/img/p/1750502637.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1750502428-1.jpg",
+    "dest": "public/img/p/1750502428-1.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/1750503337.png",
+    "dest": "public/img/p/1750503337.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/1750503197.png",
+    "dest": "public/img/p/1750503197.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1750502297.png",
+    "dest": "public/img/p/1750502297.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1750502297-2.png",
+    "dest": "public/img/p/1750502297-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/1750503220.png",
+    "dest": "public/img/p/1750503220.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/1750503220-2.png",
+    "dest": "public/img/p/1750503220-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/1750503220-3.png",
+    "dest": "public/img/p/1750503220-3.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/12/1750503249.png",
+    "dest": "public/img/p/1750503249.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/12/1750503249-2.png",
+    "dest": "public/img/p/1750503249-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/04/1750502967.jpg",
+    "dest": "public/img/p/1750502967.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/04/1750502967-2.jpg",
+    "dest": "public/img/p/1750502967-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/1750502649.png",
+    "dest": "public/img/p/1750502649.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/1750502649-2.png",
+    "dest": "public/img/p/1750502649-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/1750502649-3.png",
+    "dest": "public/img/p/1750502649-3.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/05/1750502599.jpg",
+    "dest": "public/img/p/1750502599.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/05/1750502599-2.jpg",
+    "dest": "public/img/p/1750502599-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/08/1756500113.png",
+    "dest": "public/img/p/1756500113.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/08/1756500113-2.png",
+    "dest": "public/img/p/1756500113-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/1750503330.jpg",
+    "dest": "public/img/p/1750503330.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/07/KMM-400.jpg",
+    "dest": "public/img/p/kmm-400.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/07/KMM-400-3.jpg",
+    "dest": "public/img/p/kmm-400-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/07/KMM-400-2.jpg",
+    "dest": "public/img/p/kmm-400-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/KMM-301.jpg",
+    "dest": "public/img/p/kmm-301.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/KMM-301-2.jpg",
+    "dest": "public/img/p/kmm-301-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/KMM-301-3.jpg",
+    "dest": "public/img/p/kmm-301-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/KMM-301-4.jpg",
+    "dest": "public/img/p/kmm-301-4.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/PS-001B.jpg",
+    "dest": "public/img/p/ps-001b.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/LS1008G.png",
+    "dest": "public/img/p/ls1008g.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/1730502249.jpg",
+    "dest": "public/img/p/1730502249.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/1730502292.png",
+    "dest": "public/img/p/1730502292.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/1730502292-2.png",
+    "dest": "public/img/p/1730502292-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1730502244.jpg",
+    "dest": "public/img/p/1730502244.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1730502244-2.jpg",
+    "dest": "public/img/p/1730502244-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1730502244-3.jpg",
+    "dest": "public/img/p/1730502244-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/1730502291.png",
+    "dest": "public/img/p/1730502291.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1730502210.jpg",
+    "dest": "public/img/p/1730502210.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1730502210-2.jpg",
+    "dest": "public/img/p/1730502210-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1730502210-3.jpg",
+    "dest": "public/img/p/1730502210-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/1730502210-4.jpg",
+    "dest": "public/img/p/1730502210-4.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/ZAF00190PE-2.jpg",
+    "dest": "public/img/p/zaf00190pe-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/ZAF00190PE.jpg",
+    "dest": "public/img/p/zaf00190pe.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/SM-X133-2.png",
+    "dest": "public/img/p/sm-x133-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/05/0152502521.jpg",
+    "dest": "public/img/p/0152502521.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0152502326.jpg",
+    "dest": "public/img/p/0152502326.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/05/0152502328.jpg",
+    "dest": "public/img/p/0152502328.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0101502036.png",
+    "dest": "public/img/p/0101502036.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/0101502036-2.png",
+    "dest": "public/img/p/0101502036-2.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/05/0152502414.jpg",
+    "dest": "public/img/p/0152502414.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/05/0152502571.jpg",
+    "dest": "public/img/p/0152502571.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/05/0101502028.jpg",
+    "dest": "public/img/p/0101502028.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/90YV0K60-M0AA00.jpg",
+    "dest": "public/img/p/90yv0k60-m0aa00.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/90YV0K60-M0AA00-2.jpg",
+    "dest": "public/img/p/90yv0k60-m0aa00-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/912-V538-008.png",
+    "dest": "public/img/p/912-v538-008.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/07/912-V537-017_.jpg",
+    "dest": "public/img/p/912-v537-017.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/07/912-V537-017_2.jpg",
+    "dest": "public/img/p/912-v537-017-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/08/CYB-WT801.png",
+    "dest": "public/img/p/cyb-wt801.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/CYB-WT801-WT.jpg",
+    "dest": "public/img/p/cyb-wt801-wt.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/CYB-WT803.png",
+    "dest": "public/img/p/cyb-wt803.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/CYB-T100.jpg",
+    "dest": "public/img/p/cyb-t100.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/CYB-WT802W.png",
+    "dest": "public/img/p/cyb-wt802w.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/CYB-T2000.jpg",
+    "dest": "public/img/p/cyb-t2000.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/ENT-508.jpg",
+    "dest": "public/img/p/ent-508.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/ENK-T800.png",
+    "dest": "public/img/p/enk-t800.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/31330009401.jpg",
+    "dest": "public/img/p/31330009401.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/MK120.jpg",
+    "dest": "public/img/p/mk120.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/920-004430.jpg",
+    "dest": "public/img/p/920-004430.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/920-004430-2.jpg",
+    "dest": "public/img/p/920-004430-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/MIC-GT1000.png",
+    "dest": "public/img/p/mic-gt1000.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/WT805.jpg",
+    "dest": "public/img/p/wt805.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/02/CYB-T109.png",
+    "dest": "public/img/p/cyb-t109.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/CBX-K1005.jpg",
+    "dest": "public/img/p/cbx-k1005.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/CBX-K508.png",
+    "dest": "public/img/p/cbx-k508.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/CYB-K500.jpg",
+    "dest": "public/img/p/cyb-k500.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/CYB-K501.png",
+    "dest": "public/img/p/cyb-k501.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/CYB-K201.png",
+    "dest": "public/img/p/cyb-k201.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/CYB-K212.jpg",
+    "dest": "public/img/p/cyb-k212.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/CYB-K505.png",
+    "dest": "public/img/p/cyb-k505.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/06/CYB-K505W-2.jpg",
+    "dest": "public/img/p/cyb-k505w-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/06/ENK603W.jpg",
+    "dest": "public/img/p/enk603w.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/08/ENK-606.png",
+    "dest": "public/img/p/enk-606.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/ENK-313.png",
+    "dest": "public/img/p/enk-313.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/ENK-1008.png",
+    "dest": "public/img/p/enk-1008.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/06/ENK-1001.jpg",
+    "dest": "public/img/p/enk-1001.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/05/ENK501-1.jpg",
+    "dest": "public/img/p/enk501-1.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/ENK-301.png",
+    "dest": "public/img/p/enk-301.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/08/ENK-K100.png",
+    "dest": "public/img/p/enk-k100.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/31300005401.jpg",
+    "dest": "public/img/p/31300005401.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/KKM-252S.jpg",
+    "dest": "public/img/p/kkm-252s.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/KKM-252S-2.jpg",
+    "dest": "public/img/p/kkm-252s-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/KKM-252S-3.jpg",
+    "dest": "public/img/p/kkm-252s-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/920-004422.jpg",
+    "dest": "public/img/p/920-004422.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/MIC-K710.jpg",
+    "dest": "public/img/p/mic-k710.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/06/MIC-K710R.jpg",
+    "dest": "public/img/p/mic-k710r.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/MIC-K701.jpg",
+    "dest": "public/img/p/mic-k701.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/MIC-K734W.jpg",
+    "dest": "public/img/p/mic-k734w.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/03/MIC-K709.jpg",
+    "dest": "public/img/p/mic-k709.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/920-007901.jpg",
+    "dest": "public/img/p/920-007901.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/920-007901-2.jpg",
+    "dest": "public/img/p/920-007901-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/XTK-301S.jpg",
+    "dest": "public/img/p/xtk-301s.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/3PK-TANK.jpg",
+    "dest": "public/img/p/3pk-tank.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/original-post.jpg",
+    "dest": "public/img/p/original-post.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/07/BTD100CL.png",
+    "dest": "public/img/p/btd100cl.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/BTD100BK.jpg",
+    "dest": "public/img/p/btd100bk.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/BTD100BK-2.jpg",
+    "dest": "public/img/p/btd100bk-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/06/BTD100C.jpg",
+    "dest": "public/img/p/btd100c.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/06/BTD100M.jpg",
+    "dest": "public/img/p/btd100m.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/06/BTD100Y.jpg",
+    "dest": "public/img/p/btd100y.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/BTD60BK.jpg",
+    "dest": "public/img/p/btd60bk.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T504120-AL.jpg",
+    "dest": "public/img/p/t504120-al.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/TINTAS-EPSON-2.jpg",
+    "dest": "public/img/p/tintas-epson-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/TINTAS-EPSON.jpg",
+    "dest": "public/img/p/tintas-epson.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T504220-AL.jpg",
+    "dest": "public/img/p/t504220-al.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T504320-AL.jpg",
+    "dest": "public/img/p/t504320-al.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T504420-AL.jpg",
+    "dest": "public/img/p/t504420-al.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T524120-AL.jpg",
+    "dest": "public/img/p/t524120-al.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T524220-AL.jpg",
+    "dest": "public/img/p/t524220-al.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T524320.jpg",
+    "dest": "public/img/p/t524320.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T524420.jpg",
+    "dest": "public/img/p/t524420.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T544120-AL.jpg",
+    "dest": "public/img/p/t544120-al.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T544220-A.jpg",
+    "dest": "public/img/p/t544220-a.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T544320-AL.jpg",
+    "dest": "public/img/p/t544320-al.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T544420-AL.jpg",
+    "dest": "public/img/p/t544420-al.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/t664-BK.jpg",
+    "dest": "public/img/p/t664-bk.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T664-C.jpg",
+    "dest": "public/img/p/t664-c.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T664-M.jpg",
+    "dest": "public/img/p/t664-m.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/T664-Y.jpg",
+    "dest": "public/img/p/t664-y.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/ALEG-710-512GCS.jpg",
+    "dest": "public/img/p/aleg-710-512gcs.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/04/ASU650SS-1TT-R.jpg",
+    "dest": "public/img/p/asu650ss-1tt-r.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/06/ASU650SS-512GT-R.jpg",
+    "dest": "public/img/p/asu650ss-512gt-r.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/BNV3500512G-RGX.png",
+    "dest": "public/img/p/bnv3500512g-rgx.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/09/HS-SSD-WAVEP-512G.png",
+    "dest": "public/img/p/hs-ssd-wavep-512g.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/05/SNV3S1000G.jpg",
+    "dest": "public/img/p/snv3s1000g.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/01/SNV3S-2000G.png",
+    "dest": "public/img/p/snv3s-2000g.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/07/SPATIUM-M450-1TB-2.jpg",
+    "dest": "public/img/p/spatium-m450-1tb-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/07/SPATIUM-M450-1TB.jpg",
+    "dest": "public/img/p/spatium-m450-1tb.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2026/03/P400VP1TBM28H.jpg",
+    "dest": "public/img/p/p400vp1tbm28h.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/WDS480G3G0A.jpg",
+    "dest": "public/img/p/wds480g3g0a.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/WDS500G5G0A.png",
+    "dest": "public/img/p/wds500g5g0a.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/04/WDS200T2G0A.jpg",
+    "dest": "public/img/p/wds200t2g0a.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/WDS200T3G0C.png",
+    "dest": "public/img/p/wds200t3g0c.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/11/WDS500G2G0C-e1764090745437.png",
+    "dest": "public/img/p/wds500g2g0c-e1764090745437.png"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/FX-2200LCD-U.jpg",
+    "dest": "public/img/p/fx-2200lcd-u.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/FX-2200LCD-U-2.jpg",
+    "dest": "public/img/p/fx-2200lcd-u-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/FX-2200LCD-U-3.jpg",
+    "dest": "public/img/p/fx-2200lcd-u-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/NT-1012U.jpg",
+    "dest": "public/img/p/nt-1012u.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/NT-1012U-2.jpg",
+    "dest": "public/img/p/nt-1012u-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/NT-1012U-3.jpg",
+    "dest": "public/img/p/nt-1012u-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/NT-512U.jpg",
+    "dest": "public/img/p/nt-512u.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/NT-512U-2.jpg",
+    "dest": "public/img/p/nt-512u-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/NT-512U-3.jpg",
+    "dest": "public/img/p/nt-512u-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/NT-752U.jpg",
+    "dest": "public/img/p/nt-752u.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/NT-752U-2.jpg",
+    "dest": "public/img/p/nt-752u-2.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/NT-752U-3.jpg",
+    "dest": "public/img/p/nt-752u-3.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/06/KUKS-M6-PE.jpg",
+    "dest": "public/img/p/kuks-m6-pe.jpg"
+  },
+  {
+    "url": "https://tradingstore.pe/wp-content/uploads/2025/06/KUKS-M8-PE.jpg",
+    "dest": "public/img/p/kuks-m8-pe.jpg"
+  }
+]
