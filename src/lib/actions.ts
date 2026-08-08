@@ -2,7 +2,7 @@
 
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
-import { createUser, findByRuc, listUsers, verifyPassword } from './users';
+import { createUser, diagnoseUsers, findByRuc, verifyPassword } from './users';
 import { SESSION_COOKIE, cookieOptions, createSession, isSessionConfigured } from './session';
 import { recordLead } from './forms';
 
@@ -14,8 +14,14 @@ function safeRedirect(value: FormDataEntryValue | null): string {
   return target.startsWith('/') && !target.startsWith('//') ? target : '/';
 }
 
-const MISCONFIGURED =
-  'El acceso no está disponible por una incidencia de configuración del servidor. ' +
+/**
+ * Aviso de mala configuración. Lleva un código corto porque las causas son
+ * varias y, sin distinguirlas, el fallo es imposible de diagnosticar desde
+ * fuera del servidor. El código no revela nada: el detalle va a los logs y a
+ * /api/salud.
+ */
+const misconfigured = (code: string) =>
+  `El acceso no está disponible por una incidencia de configuración del servidor (${code}). ` +
   'Escríbenos por WhatsApp y lo resolvemos.';
 
 export async function loginAction(_prev: FormState, formData: FormData): Promise<FormState> {
@@ -28,15 +34,14 @@ export async function loginAction(_prev: FormState, formData: FormData): Promise
   let token: string;
   try {
     if (!isSessionConfigured()) {
-      console.error('[aqpstorex] Falta SESSION_SECRET: no se pueden emitir sesiones.');
-      return { error: MISCONFIGURED };
+      console.error('[aqpstorex] SESSION-1: falta SESSION_SECRET, no se pueden emitir sesiones.');
+      return { error: misconfigured('SESSION-1') };
     }
 
-    if (listUsers().length === 0) {
-      console.error(
-        '[aqpstorex] No hay clientes cargados. En producción defínelos en la variable AQPX_USERS.',
-      );
-      return { error: MISCONFIGURED };
+    const diagnosis = diagnoseUsers();
+    if (diagnosis.total === 0) {
+      console.error(`[aqpstorex] USERS-1: no hay clientes cargados (${diagnosis.estado}).`);
+      return { error: misconfigured(`USERS-1:${diagnosis.estado}`) };
     }
 
     const user = findByRuc(ruc);
@@ -53,8 +58,8 @@ export async function loginAction(_prev: FormState, formData: FormData): Promise
     token = await createSession({ ruc: user.ruc, razonSocial: user.razonSocial });
     (await cookies()).set(SESSION_COOKIE, token, cookieOptions);
   } catch (error) {
-    console.error('[aqpstorex] Error inesperado al iniciar sesión:', error);
-    return { error: MISCONFIGURED };
+    console.error('[aqpstorex] LOGIN-1: error inesperado al iniciar sesión:', error);
+    return { error: misconfigured('LOGIN-1') };
   }
 
   // Fuera del try: redirect() señaliza lanzando y no debe capturarse.

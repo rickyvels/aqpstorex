@@ -136,6 +136,38 @@ export function listUsers(): User[] {
   return read();
 }
 
+/** Estado del origen de clientes, sin revelar ningún valor. Para diagnóstico. */
+export type UsersDiagnosis =
+  | 'archivo-local'
+  | 'variable-ausente'
+  | 'json-invalido'
+  | 'no-es-array'
+  | 'lista-vacia'
+  | 'sin-entradas-validas'
+  | 'ok';
+
+export function diagnoseUsers(): { estado: UsersDiagnosis; total: number } {
+  if (isWritable()) return { estado: 'archivo-local', total: readFromFile().length };
+
+  const raw = process.env.AQPX_USERS;
+  if (!raw?.trim()) return { estado: 'variable-ausente', total: 0 };
+
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(raw);
+  } catch {
+    return { estado: 'json-invalido', total: 0 };
+  }
+
+  if (!Array.isArray(parsed)) return { estado: 'no-es-array', total: 0 };
+  if (parsed.length === 0) return { estado: 'lista-vacia', total: 0 };
+
+  const total = readFromEnv().length;
+  // Entradas presentes pero sin ruc o passwordHash utilizables.
+  if (total === 0) return { estado: 'sin-entradas-validas', total: 0 };
+  return { estado: 'ok', total };
+}
+
 export function findByRuc(ruc: string): User | undefined {
   return read().find((u) => u.ruc === ruc.trim());
 }
