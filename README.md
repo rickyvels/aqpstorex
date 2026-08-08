@@ -50,9 +50,18 @@ Para dar de alta un cliente:
 npm run users:new
 ```
 
-Pide los datos por consola, convierte la contraseña en hash y devuelve el JSON
-listo para pegar en `AQPX_USERS`. La contraseña nunca se guarda en claro ni sale
-de tu máquina. Para varios clientes, junta los objetos en un mismo array.
+Pide los datos por consola y escribe **`vercel-env.txt`** con los dos valores
+listos para pegar en Vercel: `SESSION_SECRET` (generado al vuelo) y
+`AQPX_USERS`. La contraseña se convierte en hash y nunca se guarda en claro.
+
+Para añadir un cliente a una lista existente, pega el valor actual de
+`AQPX_USERS` cuando el script lo pida y lo devuelve ampliado.
+
+`vercel-env.txt` está en `.gitignore` porque contiene un secreto de producción;
+bórralo cuando termines de copiarlo.
+
+Las variables nuevas **solo se aplican tras un redespliegue**: guardarlas en el
+panel no basta.
 
 Comprobar que el despliegue funcionará antes de subirlo:
 
