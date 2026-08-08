@@ -1,17 +1,26 @@
 import Link from 'next/link';
-import { getCategories, getProducts, getProductsByCategory } from '@/lib/catalog';
+import Image from 'next/image';
+import {
+  getBrands,
+  getCategories,
+  getCategory,
+  getProducts,
+  getProductsByCategory,
+  getTopBrands,
+} from '@/lib/catalog';
 import { getSession } from '@/lib/session';
 import { CategoryGrid } from '@/components/CategoryGrid';
 import { ProductRow } from '@/components/ProductRow';
-import { site, homeSections } from '~/site.config';
+import { BrandStrip } from '@/components/BrandStrip';
+import { WholesaleCta } from '@/components/WholesaleCta';
+import { OpeningStatus } from '@/components/OpeningStatus';
+import { site, homeSections, heroCategorySlugs } from '~/site.config';
 
 const benefits = [
   {
     title: 'Precios mayoristas',
     text: 'Escalas de precio por volumen para revendedores y corporativos.',
-    icon: (
-      <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" strokeLinecap="round" />
-    ),
+    icon: <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" strokeLinecap="round" />,
   },
   {
     title: 'Despacho a todo el Perú',
@@ -44,71 +53,141 @@ const benefits = [
 export default async function HomePage() {
   const session = await getSession();
   const authenticated = !!session;
+
   const categories = getCategories();
-  const totalProducts = getProducts().length;
+  const products = getProducts();
+  const brands = getTopBrands(14);
+
+  const heroCategories = heroCategorySlugs
+    .map((slug) => getCategory(slug))
+    .filter((c): c is NonNullable<typeof c> => !!c);
+
+  const stats = [
+    { value: products.length, label: 'productos' },
+    { value: categories.length, label: 'categorías' },
+    { value: getBrands().length, label: 'marcas' },
+  ];
 
   return (
     <>
-      {/* Hero */}
+      {/* ------------------------------------------------------------ hero */}
       <section className="bg-gradient-to-br from-brand to-brand-dark text-white">
-        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-14 lg:grid-cols-2 lg:items-center lg:py-20">
+        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 lg:grid-cols-[1.15fr_1fr] lg:items-center lg:py-20">
           <div>
-            <span className="inline-block rounded-full bg-white/15 px-3 py-1 text-xs font-semibold tracking-wide">
-              Distribuidor mayorista · {totalProducts} productos en catálogo
-            </span>
-            <h1 className="mt-4 text-3xl leading-tight font-extrabold text-white sm:text-4xl lg:text-5xl">
-              Tecnología al por mayor para tu negocio
+            <p className="inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1.5 text-xs font-semibold">
+              <OpeningStatus />
+            </p>
+
+            <h1 className="mt-5 text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-[3.4rem] lg:leading-[1.05]">
+              Tecnología al por mayor
+              <span className="mt-1 block text-accent">para tu negocio</span>
             </h1>
-            <p className="mt-4 max-w-xl text-base text-white/80 sm:text-lg">
+
+            <p className="mt-5 max-w-xl text-base leading-relaxed text-white/90 sm:text-lg">
               {site.name} abastece a revendedores, integradores y empresas de todo el Perú con
               cómputo, impresión, redes y accesorios de las principales marcas.
             </p>
-            <div className="mt-7 flex flex-wrap gap-3">
-              <Link
-                href="/tienda"
-                className="rounded-md bg-white px-6 py-3 text-sm font-bold text-brand transition-colors hover:bg-white/90"
-              >
-                Ver catálogo
-              </Link>
-              {!authenticated && (
+
+            {/* CTA primario = crear cuenta; el catálogo queda como acción secundaria */}
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              {authenticated ? (
                 <Link
-                  href="/registro"
-                  className="rounded-md border-2 border-white/40 px-6 py-3 text-sm font-bold text-white transition-colors hover:bg-white/10"
+                  href="/tienda"
+                  className="rounded-md bg-white px-8 py-4 text-base font-bold text-brand shadow-lg transition-transform hover:-translate-y-0.5 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-brand focus-visible:outline-none"
                 >
-                  Solicitar cuenta mayorista
+                  Ver catálogo con precios
                 </Link>
+              ) : (
+                <>
+                  <Link
+                    href="/registro"
+                    className="rounded-md bg-white px-8 py-4 text-base font-bold text-brand shadow-lg transition-transform hover:-translate-y-0.5 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-brand focus-visible:outline-none"
+                  >
+                    Crear cuenta mayorista
+                  </Link>
+                  <Link
+                    href="/tienda"
+                    className="rounded-md border-2 border-white/40 px-8 py-4 text-base font-semibold text-white transition-colors hover:bg-white/10 focus-visible:ring-2 focus-visible:ring-white focus-visible:outline-none"
+                  >
+                    Explorar catálogo
+                  </Link>
+                </>
               )}
             </div>
+
+            {!authenticated && (
+              <p className="mt-4 text-xs text-white/70">
+                Gratis · Sin compromiso de compra · Activación en 24 h hábiles
+              </p>
+            )}
+
+            <dl className="mt-9 flex flex-wrap gap-x-10 gap-y-4 border-t border-white/15 pt-6">
+              {stats.map((s) => (
+                <div key={s.label}>
+                  <dt className="sr-only">{s.label}</dt>
+                  <dd>
+                    <span className="block text-3xl font-extrabold text-white">{s.value}</span>
+                    <span className="block text-xs tracking-wide text-white/70 uppercase">
+                      {s.label}
+                    </span>
+                  </dd>
+                </div>
+              ))}
+            </dl>
           </div>
 
+          {/* Accesos rápidos curados por valor comercial, no por volumen */}
           <div className="grid grid-cols-2 gap-3">
-            {categories.slice(0, 4).map((c) => (
+            {heroCategories.map((c, i) => (
               <Link
                 key={c.slug}
                 href={`/categoria/${c.slug}`}
-                className="rounded-lg bg-white/10 p-4 backdrop-blur transition-colors hover:bg-white/20"
+                className="group flex flex-col justify-between rounded-xl bg-white/10 p-4 ring-1 ring-white/15 backdrop-blur transition-colors hover:bg-white/20 focus-visible:ring-2 focus-visible:ring-white focus-visible:outline-none"
               >
-                <span className="block text-sm font-bold text-white">{c.name}</span>
-                <span className="mt-1 block text-xs text-white/70">{c.count} productos</span>
+                {c.image && (
+                  <span className="relative mb-3 block h-20 w-full">
+                    <Image
+                      src={c.image}
+                      alt=""
+                      fill
+                      sizes="(max-width: 1024px) 45vw, 200px"
+                      className="object-contain"
+                      // Solo las dos primeras entran en el viewport inicial.
+                      priority={i < 2}
+                    />
+                  </span>
+                )}
+                <span>
+                  <span className="block text-sm font-bold text-white">{c.name}</span>
+                  <span className="mt-0.5 block text-xs text-white/70">{c.count} productos</span>
+                </span>
               </Link>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Beneficios */}
-      <section className="border-b border-gray-200 bg-gray-50">
+      {/* -------------------------------------------------------- beneficios */}
+      <section className="border-b border-gray-200 bg-gray-50" aria-label="Por qué comprarnos">
         <div className="mx-auto grid max-w-7xl gap-6 px-4 py-8 sm:grid-cols-2 lg:grid-cols-4">
           {benefits.map((b) => (
             <div key={b.title} className="flex items-start gap-3">
               <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-brand-light text-brand">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  aria-hidden="true"
+                >
                   {b.icon}
                 </svg>
               </span>
               <span>
                 <span className="block text-sm font-bold text-gray-800">{b.title}</span>
-                <span className="mt-0.5 block text-xs leading-relaxed text-gray-500">{b.text}</span>
+                <span className="mt-0.5 block text-xs leading-relaxed text-gray-600">{b.text}</span>
               </span>
             </div>
           ))}
@@ -117,42 +196,20 @@ export default async function HomePage() {
 
       <CategoryGrid categories={categories} />
 
-      {/* Aviso de acceso mayorista */}
-      {!authenticated && (
-        <section className="mx-auto max-w-7xl px-4">
-          <div className="flex flex-col items-center justify-between gap-4 rounded-lg border border-brand/20 bg-brand-light px-6 py-5 sm:flex-row">
-            <p className="text-sm text-brand-dark">
-              <strong className="font-bold">Los precios son exclusivos para clientes mayoristas.</strong>{' '}
-              Accede con tu cuenta o solicita una para ver precios y stock en tiempo real.
-            </p>
-            <div className="flex shrink-0 gap-2">
-              <Link
-                href="/acceder"
-                className="rounded-md bg-cta px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-cta-hover"
-              >
-                Acceder
-              </Link>
-              <Link
-                href="/registro"
-                className="rounded-md border border-brand/30 bg-white px-5 py-2.5 text-sm font-semibold text-brand transition-colors hover:bg-white/60"
-              >
-                Registrarme
-              </Link>
-            </div>
-          </div>
-        </section>
-      )}
+      {!authenticated && <WholesaleCta productCount={products.length} />}
 
-      {/* Carruseles por categoría */}
+      {/* ------------------------------------------------------- carruseles */}
       {homeSections.map((s) => (
         <ProductRow
           key={s.slug}
           title={s.title}
           href={`/categoria/${s.slug}`}
-          products={getProductsByCategory(s.slug).slice(0, 12)}
+          products={getProductsByCategory(s.slug).slice(0, 10)}
           authenticated={authenticated}
         />
       ))}
+
+      <BrandStrip brands={brands} />
     </>
   );
 }

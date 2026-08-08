@@ -1,9 +1,5 @@
 [
   {
-    "url": "https://tradingstore.pe/wp-content/uploads/2024/12/MOCHILAS.jpg",
-    "dest": "public/img/cat/mochilas.jpg"
-  },
-  {
     "url": "https://tradingstore.pe/wp-content/uploads/2024/12/MOUSE.jpg",
     "dest": "public/img/cat/mouse.jpg"
   },
@@ -64,10 +60,6 @@
     "dest": "public/img/cat/estabilizador.jpg"
   },
   {
-    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/SERVIDORES.jpg",
-    "dest": "public/img/cat/servidores.jpg"
-  },
-  {
     "url": "https://tradingstore.pe/wp-content/uploads/2024/12/MAINBOARD.jpg",
     "dest": "public/img/cat/mainboard.jpg"
   },
@@ -100,20 +92,12 @@
     "dest": "public/img/cat/all-in-one.jpg"
   },
   {
-    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/dashcam.jpg",
-    "dest": "public/img/cat/dashcam.jpg"
-  },
-  {
     "url": "https://tradingstore.pe/wp-content/uploads/2025/01/RACK.jpg",
     "dest": "public/img/cat/rack.jpg"
   },
   {
     "url": "https://tradingstore.pe/wp-content/uploads/2024/12/SOFTWARE.jpg",
     "dest": "public/img/cat/software.jpg"
-  },
-  {
-    "url": "https://tradingstore.pe/wp-content/uploads/2025/01/TABLETA.jpg",
-    "dest": "public/img/cat/tableta.jpg"
   },
   {
     "url": "https://tradingstore.pe/wp-content/uploads/2024/12/COOLER.jpg",

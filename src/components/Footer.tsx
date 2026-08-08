@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Logo } from './Logo';
-import { site, nav } from '~/site.config';
+import { OpeningStatus } from './OpeningStatus';
+import { site, nav, deliveryTimes } from '~/site.config';
 import type { Category } from '@/lib/types';
 
 export function Footer({ categories }: { categories: Category[] }) {
@@ -53,7 +54,21 @@ export function Footer({ categories }: { categories: Category[] }) {
               </a>
             </li>
             <li>{site.phone}</li>
-            <li className="text-xs text-white/60">{site.hours}</li>
+            <li className="text-xs text-white/75">
+              <OpeningStatus />
+            </li>
+          </ul>
+
+          <h3 className="mt-6 mb-3 text-sm font-bold tracking-wider text-white uppercase">
+            Tiempos de entrega
+          </h3>
+          <ul className="space-y-1.5 text-xs">
+            {deliveryTimes.map((d) => (
+              <li key={d.zone} className="flex justify-between gap-3">
+                <span>{d.zone}</span>
+                <span className="font-semibold text-white">{d.time}</span>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

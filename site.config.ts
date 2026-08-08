@@ -47,6 +47,13 @@ export const featuredCategorySlugs = [
   'memorias',
 ] as const;
 
+/**
+ * Accesos rápidos del hero. Se eligen a mano por valor comercial: ordenar por
+ * número de productos hacía que destacaran Mouse y Teclados por delante de
+ * Portátiles e Impresoras, que son las de mayor ticket.
+ */
+export const heroCategorySlugs = ['portatiles', 'impresoras', 'redes', 'monitores'] as const;
+
 /** Secciones con carrusel en la portada, en orden. */
 export const homeSections = [
   { slug: 'portatiles', title: 'Portátiles / Laptops' },
@@ -58,6 +65,37 @@ export const homeSections = [
   { slug: 'camaras-de-seguridad', title: 'Cámaras de Seguridad' },
   { slug: 'teclados', title: 'Teclados' },
 ] as const;
+
+/**
+ * Escalas de descuento por volumen que se muestran en la página de registro.
+ * PLACEHOLDER: son cifras de ejemplo. Confírmalas con el área comercial antes
+ * de publicar, porque son una promesa contractual frente al cliente.
+ */
+export const volumeTiers = [
+  { label: 'Minorista', detail: 'Compras sueltas', discount: 'Precio lista' },
+  { label: 'Bronce', detail: 'Desde S/ 3,000 / mes', discount: '-4 %' },
+  { label: 'Plata', detail: 'Desde S/ 10,000 / mes', discount: '-7 %' },
+  { label: 'Oro', detail: 'Desde S/ 25,000 / mes', discount: '-11 %' },
+] as const;
+
+/** Tiempos de despacho por destino. PLACEHOLDER: ajustar a tu operador real. */
+export const deliveryTimes = [
+  { zone: 'Arequipa ciudad', time: 'Mismo día', note: 'Pedidos antes de las 15:00' },
+  { zone: 'Lima y capitales', time: '24 – 48 h', note: 'Vía agencia de transporte' },
+  { zone: 'Resto del país', time: '2 – 5 días', note: 'Según cobertura del operador' },
+] as const;
+
+/**
+ * Horario comercial en hora de Perú (UTC-5), para el indicador de atención.
+ * `days` usa la convención de Date.getDay(): 0 domingo … 6 sábado.
+ */
+export const businessHours = {
+  timeZone: 'America/Lima',
+  schedule: [
+    { days: [1, 2, 3, 4, 5], open: '09:00', close: '18:30' },
+    { days: [6], open: '09:00', close: '13:00' },
+  ],
+} as const;
 
 export const nav = {
   main: [

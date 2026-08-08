@@ -10,7 +10,8 @@
     "lint": "next lint",
     "catalog:normalize": "node scripts/normalize.mjs",
     "catalog:images": "node scripts/fetch-images.mjs",
-    "smoke": "node scripts/smoke-auth.mjs"
+    "smoke": "node scripts/smoke-auth.mjs",
+    "users": "node scripts/users.mjs"
   },
   "dependencies": {
     "jose": "^5.9.6",

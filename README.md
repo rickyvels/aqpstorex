@@ -89,23 +89,49 @@ La paleta se define como variables CSS en [`src/app/globals.css`](src/app/global
 | Rutas protegidas   | `/distribucion`, `/mi-cuenta` (ver `src/middleware.ts`)           |
 
 **Cuenta de prueba:** RUC `20123456789`, contraseña `demo1234`.
-Elimínala de `data/users.json` antes de publicar.
+Elimínala antes de publicar con `npm run users -- delete 20123456789`.
 
-Verificación del gate de precios:
+### Dar de alta a un cliente
+
+La base de usuarios de aqpstorex es propia e independiente de cualquier otro
+portal: un RUC solo entra si está registrado aquí.
+
+1. El cliente se registra en `/registro` y elige su propia contraseña.
+2. Queda en estado pendiente hasta que lo apruebes:
 
 ```bash
-npm run dev
-node scripts/smoke-auth.mjs
+npm run users -- list
+npm run users -- approve 20603580045
 ```
+
+Otros comandos: `revoke <ruc>` suspende el acceso y `delete <ruc>` elimina la cuenta.
+El script nunca lee ni modifica contraseñas.
+
+### Verificación
+
+Con el servidor levantado:
+
+```bash
+npm run smoke
+```
+
+Comprueba las rutas protegidas sin y con sesión, que los precios no aparezcan en el
+HTML anónimo, la descarga del CSV y la verificación de contraseñas.
 
 ---
 
 ## Importar el catálogo
 
 ```bash
+node scripts/fetch-catalog.mjs # descarga las fuentes a data/raw/
 node scripts/normalize.mjs     # data/raw/*.json  ->  data/catalog.json
 node scripts/fetch-images.mjs  # descarga las imágenes a public/img/
 ```
+
+`fetch-catalog.mjs` cruza dos APIs a propósito: la Store API tiene los precios y
+las imágenes, pero sus contadores de categoría están obsoletos y omite la
+categoría de algunos productos; la taxonomía de WP REST es la fuente correcta
+para clasificar. Ver el detalle en [AUDITORIA.md](AUDITORIA.md).
 
 `scripts/normalize.mjs` decodifica entidades HTML, normaliza precios a soles, deriva
 la lista de marcas y genera el manifiesto de imágenes. `scripts/fetch-images.mjs` es
@@ -118,8 +144,11 @@ versionan.
 
 ## Pendientes antes de publicar
 
+Ver [AUDITORIA.md](AUDITORIA.md) para el detalle priorizado.
+
 1. **Datos de marca reales** — reemplazar los `// PLACEHOLDER` de `site.config.ts`
-   (RUC, dirección, correo, teléfono y los cinco números de WhatsApp).
+   (RUC, dirección, correo, teléfono, los cinco números de WhatsApp, la escala de
+   descuento por volumen y los tiempos de entrega).
 2. **Precios propios** — los del catálogo provienen del proveedor. Aplicar el margen
    comercial antes de mostrarlos públicamente.
 3. **Base de datos real** — `data/users.json` no soporta escrituras concurrentes.

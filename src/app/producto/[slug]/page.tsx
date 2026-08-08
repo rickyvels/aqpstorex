@@ -5,6 +5,7 @@ import { getProduct, getProducts, getRelated, formatPrice } from '@/lib/catalog'
 import { getSession } from '@/lib/session';
 import { ProductGallery } from '@/components/ProductGallery';
 import { ProductRow } from '@/components/ProductRow';
+import { BreadcrumbJsonLd, ProductJsonLd } from '@/components/JsonLd';
 import { site, advisors } from '~/site.config';
 
 export function generateStaticParams() {
@@ -19,9 +20,28 @@ export async function generateMetadata({
   const { slug } = await params;
   const product = getProduct(slug);
   if (!product) return { title: 'Producto no encontrado' };
+
+  const description =
+    product.shortDescription ||
+    [
+      product.name,
+      product.brand && `Marca ${product.brand}.`,
+      product.sku && `SKU ${product.sku}.`,
+      `Disponible al por mayor en ${site.name} con despacho a todo el Perú.`,
+    ]
+      .filter(Boolean)
+      .join(' ');
+
   return {
     title: product.name,
-    description: product.shortDescription || `${product.name} — disponible al por mayor en ${site.name}.`,
+    description: description.slice(0, 160),
+    alternates: { canonical: `/producto/${product.slug}` },
+    openGraph: {
+      title: product.name,
+      description: description.slice(0, 160),
+      type: 'website',
+      images: product.images[0] ? [{ url: product.images[0] }] : undefined,
+    },
   };
 }
 
@@ -42,6 +62,15 @@ export default async function ProductoPage({ params }: { params: Promise<{ slug:
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8">
+      <ProductJsonLd product={product} />
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Inicio', path: '/' },
+          { name: 'Tienda', path: '/tienda' },
+          ...(category ? [{ name: category.name, path: `/categoria/${category.slug}` }] : []),
+          { name: product.name, path: `/producto/${product.slug}` },
+        ]}
+      />
       <nav className="mb-6 flex flex-wrap items-center gap-1 text-xs text-gray-500">
         <Link href="/" className="hover:text-cta">
           Inicio
@@ -100,7 +129,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ slug:
                   {product.onSale &&
                     product.regularPrice != null &&
                     product.regularPrice > (product.price ?? 0) && (
-                      <span className="text-base text-gray-400 line-through">
+                      <span className="text-base text-gray-500 line-through">
                         {formatPrice(product.regularPrice)}
                       </span>
                     )}
@@ -111,7 +140,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ slug:
                   {product.inStock ? (
                     <span className="text-green-600">● Disponible en stock</span>
                   ) : (
-                    <span className="text-gray-400">● Sin stock — consulta reposición</span>
+                    <span className="text-gray-600">● Sin stock — consulta reposición</span>
                   )}
                 </p>
 

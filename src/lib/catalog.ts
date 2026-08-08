@@ -51,14 +51,22 @@ export type Filters = {
   sort?: 'nombre' | 'precio-asc' | 'precio-desc';
   page?: number;
   perPage?: number;
+  /**
+   * Filtro por precio. Solo debe aplicarse con sesión iniciada: para un
+   * invitado, acotar por rango revelaría el precio que el acceso protege.
+   */
+  minPrice?: number;
+  maxPrice?: number;
 };
 
 export function filterProducts(filters: Filters) {
-  const { q, category, brand, sort = 'nombre', page = 1, perPage = 24 } = filters;
+  const { q, category, brand, sort = 'nombre', page = 1, perPage = 24, minPrice, maxPrice } = filters;
   let items = getProducts();
 
   if (category) items = items.filter((p) => p.categories.some((c) => c.slug === category));
   if (brand) items = items.filter((p) => p.brand === brand);
+  if (minPrice != null) items = items.filter((p) => (p.price ?? 0) >= minPrice);
+  if (maxPrice != null) items = items.filter((p) => (p.price ?? 0) <= maxPrice);
 
   if (q?.trim()) {
     // Cada término debe aparecer en el nombre, SKU o marca.
@@ -84,6 +92,26 @@ export function filterProducts(filters: Filters) {
     pages,
     page: current,
   };
+}
+
+/** Marcas ordenadas por número de productos, para la franja de prueba social. */
+export function getTopBrands(limit = 14): { name: string; count: number }[] {
+  const counts = new Map<string, number>();
+  for (const p of getProducts()) {
+    if (p.brand) counts.set(p.brand, (counts.get(p.brand) ?? 0) + 1);
+  }
+  return [...counts]
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, limit);
+}
+
+/** Rango de precios del catálogo, para acotar el filtro de la tienda. */
+export function getPriceRange(category?: string): { min: number; max: number } {
+  const items = category ? getProductsByCategory(category) : getProducts();
+  const prices = items.map((p) => p.price).filter((p): p is number => p != null && p > 0);
+  if (prices.length === 0) return { min: 0, max: 0 };
+  return { min: Math.floor(Math.min(...prices)), max: Math.ceil(Math.max(...prices)) };
 }
 
 /** Marcas presentes en un subconjunto, para poblar el filtro lateral. */

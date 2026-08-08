@@ -1,13 +1,6 @@
 {
   "categories": [
     {
-      "id": 25,
-      "name": "MOCHILAS",
-      "slug": "mochilas",
-      "count": 80,
-      "image": "/img/cat/mochilas.jpg"
-    },
-    {
       "id": 23,
       "name": "MOUSE",
       "slug": "mouse",
@@ -20,13 +13,6 @@
       "slug": "teclados",
       "count": 50,
       "image": "/img/cat/teclado.jpg"
-    },
-    {
-      "id": 47,
-      "name": "REPUESTOS",
-      "slug": "repuestos",
-      "count": 49,
-      "image": null
     },
     {
       "id": 24,
@@ -106,13 +92,6 @@
       "image": "/img/cat/memorias.jpg"
     },
     {
-      "id": 26,
-      "name": "TARJETA DE RED",
-      "slug": "tarjeta-de-red",
-      "count": 15,
-      "image": null
-    },
-    {
       "id": 385,
       "name": "USB/MICRO SD",
       "slug": "usb-micro-sd",
@@ -125,13 +104,6 @@
       "slug": "estabilizador",
       "count": 12,
       "image": "/img/cat/estabilizador.jpg"
-    },
-    {
-      "id": 43,
-      "name": "SERVIDORES",
-      "slug": "servidores",
-      "count": 12,
-      "image": "/img/cat/servidores.jpg"
     },
     {
       "id": 22,
@@ -162,32 +134,11 @@
       "image": "/img/cat/switch.jpg"
     },
     {
-      "id": 44,
-      "name": "CELULARES",
-      "slug": "celulares",
-      "count": 8,
-      "image": null
-    },
-    {
       "id": 31,
       "name": "PROCESADOR",
       "slug": "procesador",
       "count": 8,
       "image": "/img/cat/procesadores.jpg"
-    },
-    {
-      "id": 48,
-      "name": "TABLETS",
-      "slug": "tablets",
-      "count": 8,
-      "image": null
-    },
-    {
-      "id": 313,
-      "name": "BRIX",
-      "slug": "brix",
-      "count": 7,
-      "image": null
     },
     {
       "id": 32,
@@ -207,13 +158,6 @@
       "id": 37,
       "name": "WEB CAM",
       "slug": "web-cam",
-      "count": 5,
-      "image": null
-    },
-    {
-      "id": 49,
-      "name": "TELEVISORES",
-      "slug": "televisores",
       "count": 4,
       "image": null
     },
@@ -223,13 +167,6 @@
       "slug": "all-one",
       "count": 3,
       "image": "/img/cat/all-in-one.jpg"
-    },
-    {
-      "id": 387,
-      "name": "CÁMARA PARA AUTOS",
-      "slug": "cam-autos",
-      "count": 3,
-      "image": "/img/cat/dashcam.jpg"
     },
     {
       "id": 380,
@@ -246,25 +183,11 @@
       "image": "/img/cat/software.jpg"
     },
     {
-      "id": 381,
-      "name": "TABLETA GRÁFICA",
-      "slug": "tableta-grafica",
-      "count": 3,
-      "image": "/img/cat/tableta.jpg"
-    },
-    {
       "id": 42,
       "name": "COOLER PARA LAPTOP",
       "slug": "cooler-para-laptop",
       "count": 2,
       "image": "/img/cat/cooler.jpg"
-    },
-    {
-      "id": 45,
-      "name": "LECTOR DE CODIGOS DE BARRAS",
-      "slug": "lector-de-codigos-de-barras",
-      "count": 2,
-      "image": null
     },
     {
       "id": 39,
@@ -281,9 +204,9 @@
       "image": "/img/cat/tablet.jpg"
     },
     {
-      "id": 41,
-      "name": "CARD READER",
-      "slug": "card-reader",
+      "id": 45,
+      "name": "LECTOR DE CODIGOS DE BARRAS",
+      "slug": "lector-de-codigos-de-barras",
       "count": 1,
       "image": null
     },
@@ -300,13 +223,6 @@
       "slug": "pcs",
       "count": 1,
       "image": "/img/cat/pc.png"
-    },
-    {
-      "id": 51,
-      "name": "SCANER",
-      "slug": "scaner",
-      "count": 1,
-      "image": null
     }
   ],
   "products": [
@@ -1342,7 +1258,12 @@
       "slug": "camara-enkore-delta-enc-wc103-fhd-usb-microf",
       "sku": "ENC WC103 FHD",
       "brand": "ENKORE",
-      "categories": [],
+      "categories": [
+        {
+          "name": "WEB CAM",
+          "slug": "web-cam"
+        }
+      ],
       "price": 27.96,
       "regularPrice": 27.96,
       "salePrice": 27.96,
@@ -1863,7 +1784,12 @@
       "slug": "camara-web-micronics-magnus-2k-quad-hd",
       "sku": "MIC W701",
       "brand": "MICRONICS",
-      "categories": [],
+      "categories": [
+        {
+          "name": "WEB CAM",
+          "slug": "web-cam"
+        }
+      ],
       "price": 35.81,
       "regularPrice": 35.81,
       "salePrice": 35.81,
@@ -1881,7 +1807,12 @@
       "slug": "camara-web-micronics-magnus-mic-w701tr-2k-quad-hd-tripode",
       "sku": "MIC W701TR",
       "brand": "MICRONICS",
-      "categories": [],
+      "categories": [
+        {
+          "name": "WEB CAM",
+          "slug": "web-cam"
+        }
+      ],
       "price": 38.19,
       "regularPrice": 38.19,
       "salePrice": 38.19,
@@ -1899,7 +1830,12 @@
       "slug": "camara-web-micronics-quantum-mic-w700-2k-microf-usb-tripode",
       "sku": "MIC W700",
       "brand": "MICRONICS",
-      "categories": [],
+      "categories": [
+        {
+          "name": "WEB CAM",
+          "slug": "web-cam"
+        }
+      ],
       "price": 44.33,
       "regularPrice": 44.33,
       "salePrice": 44.33,
@@ -3589,7 +3525,12 @@
       "slug": "laptop-gamer-lenovo-loq-15irx10-intel-core-i7-13700hx-16gb-ram-512gb-ssd-15-6-geforce-rtx-5050",
       "sku": "83JE00Q8LM",
       "brand": "LENOVO",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 4565.99,
       "regularPrice": 4565.99,
       "salePrice": 4565.99,
@@ -3608,7 +3549,12 @@
       "slug": "laptop-lenovo-ideapad-slim3-15irh10-i5-13420h-16gb-512gb-ssd-5-3-wuxga-%c2%b7-freedos",
       "sku": "83K1016CLM",
       "brand": "LENOVO",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2335.85,
       "regularPrice": 2335.85,
       "salePrice": 2335.85,
@@ -3674,7 +3620,12 @@
       "slug": "lector-de-codigo-de-barras-3nstar-sc310-inalambrico-1d",
       "sku": "SC310BT",
       "brand": "3NStAR",
-      "categories": [],
+      "categories": [
+        {
+          "name": "LECTOR DE CODIGOS DE BARRAS",
+          "slug": "lector-de-codigos-de-barras"
+        }
+      ],
       "price": 204.6,
       "regularPrice": 204.6,
       "salePrice": 204.6,
@@ -3713,7 +3664,12 @@
       "slug": "macbook-neo-blue-a18-pro-8gb-ram-256-ssd-13-spanish",
       "sku": "MHFF4E/A",
       "brand": "Apple",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2588.19,
       "regularPrice": 2588.19,
       "salePrice": 2588.19,
@@ -3731,7 +3687,12 @@
       "slug": "macbook-neo-silver-a18-pro-8gb-ram-256-ssd-13-spanish",
       "sku": "MHFA4E/A",
       "brand": "Apple",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2588.19,
       "regularPrice": 2588.19,
       "salePrice": 2588.19,
@@ -7537,7 +7498,12 @@
       "slug": "portatil-acer-aspire-15-i9-13900h-16gb-ddr5-ssd-512gb-15-6-no-os",
       "sku": "NX.JQYAL.002",
       "brand": "ACER",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 3051.95,
       "regularPrice": 3051.95,
       "salePrice": 3051.95,
@@ -7553,7 +7519,12 @@
       "slug": "portatil-acer-aspire-go-15-r7-7730u-16gb-ddr4-ssd-512gb-15-6-w11",
       "sku": "NX.JJHAA.003",
       "brand": "ACER",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2506.35,
       "regularPrice": 2506.35,
       "salePrice": 2506.35,
@@ -7569,7 +7540,12 @@
       "slug": "portatil-acer-nitro-v-15-i7-13620h-16gb-ddr4-ssd-512gb-rtx-5050-8gb-15-6-fhd-freedos",
       "sku": "NH.QZ7AL.001",
       "brand": "ACER",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 4293.19,
       "regularPrice": 4293.19,
       "salePrice": 4293.19,
@@ -7587,7 +7563,12 @@
       "slug": "portatil-asus-rog-strix-ultra-9-275hx-16gb-ddr5-ssd-1tb-rtx-5070-8gb-16-w11",
       "sku": "90NR0LN1-M000N0",
       "brand": "Asus",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 8623.89,
       "regularPrice": 8623.89,
       "salePrice": 8623.89,
@@ -7607,7 +7588,12 @@
       "slug": "portatil-asus-tuf-gaming-fa506n-r7-7435hs-16gb-ddr5-ssd-512gb-rtx-3050-4gb-15-6fhd",
       "sku": "90NR0QE7-M000H0",
       "brand": "Asus",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 3406.59,
       "regularPrice": 3406.59,
       "salePrice": 3406.59,
@@ -7623,7 +7609,12 @@
       "slug": "portatil-asus-tuf-gaming-fx607v-5-210h-8gb-ddr5-rtx-3050-6gb-16-no-os-mochila-y-mouse",
       "sku": "90NR0MZ6-M00B80",
       "brand": "Asus",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 3236.09,
       "regularPrice": 3236.09,
       "salePrice": 3236.09,
@@ -7641,7 +7632,12 @@
       "slug": "portatil-hp-14-ep0132la-i3-n305-3-8ghz-8gb-ddr4-512-gb-ssd-14-intel-uhd",
       "sku": "C92PTLA#ABM",
       "brand": "HP",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 1872.09,
       "regularPrice": 1872.09,
       "salePrice": 1872.09,
@@ -7657,7 +7653,12 @@
       "slug": "portatil-hp-250-g10-i7-1355u-8gb-ssd-512gb-15-6-freedos-2",
       "sku": "9S8U5LA#ABM",
       "brand": "HP",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2656.39,
       "regularPrice": 2656.39,
       "salePrice": 2656.39,
@@ -7675,7 +7676,12 @@
       "slug": "portatil-hp-250r-g10-core-7-120u-16gb-ddr5-ssd-512gb-15-6-freedos",
       "sku": "D2DX8AT#ABM",
       "brand": "HP",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2758.69,
       "regularPrice": 2758.69,
       "salePrice": 2758.69,
@@ -7693,7 +7699,12 @@
       "slug": "portatil-hp-255r-g10-ryzen-7-7735u-16gb-ddr5-ssd-512gb-15-6-freedos",
       "sku": "B77CBLT#ABM",
       "brand": "HP",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2523.4,
       "regularPrice": 2523.4,
       "salePrice": 2523.4,
@@ -7711,7 +7722,12 @@
       "slug": "portatil-hp-ai-15-fd2362la-ultra-5-225u-24gb-ddr5-512-gb-ssd-15-6-fhd-no-os",
       "sku": "D31TFLA#ABM",
       "brand": "HP",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2588.19,
       "regularPrice": 2588.19,
       "salePrice": 2588.19,
@@ -7727,7 +7743,12 @@
       "slug": "portatil-hp-omen-ryzen-7-8845hs-16gb-ssd-1-tb-t-v-rtx-4050-6gb-17-3-w11",
       "sku": "A14M1LA#ABM",
       "brand": "HP",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 4872.89,
       "regularPrice": 4872.89,
       "salePrice": 4872.89,
@@ -7747,7 +7768,12 @@
       "slug": "portatil-hp-victus-15-fb3019la-ryzen-7-7445hs-8gb-ddr5-ssd-512-15-6-rtx-3050-6gb",
       "sku": "BT4F6LA#ABM",
       "brand": "HP",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2963.29,
       "regularPrice": 2963.29,
       "salePrice": 2963.29,
@@ -7765,7 +7791,12 @@
       "slug": "portatil-hp-victus-15-fb3020la-ryzen-7-7445hs-16gb-ddr5-ssd-512-15-6-rtx-3050-6gb-w11",
       "sku": "BT4F7LA#ABM",
       "brand": "HP",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 3372.49,
       "regularPrice": 3372.49,
       "salePrice": 3372.49,
@@ -7785,7 +7816,12 @@
       "slug": "portatil-lenovo-15irh10-i7-13620h-16gb-ddr5-ssd-512gb-15-3-no-os",
       "sku": "83K101FFLM",
       "brand": "LENOVO",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2758.69,
       "regularPrice": 2758.69,
       "salePrice": 2758.69,
@@ -7804,7 +7840,12 @@
       "slug": "portatil-lenovo-gaming-loq-15arp10e-ryzen-7-7735hs-16gb-ddr5-ssd-512gb-t-v-rtx-3050-6gb",
       "sku": "83S0004HLM",
       "brand": "LENOVO",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 3338.39,
       "regularPrice": 3338.39,
       "salePrice": 3338.39,
@@ -7823,7 +7864,12 @@
       "slug": "portatil-lenovo-gaming-loq-15iax9e-i5-12450hx-8gb-ddr5-ssd-512-gb-rtx-3050-6gb-15-6",
       "sku": "83LK00ETLM",
       "brand": "LENOVO",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2745.05,
       "regularPrice": 2745.05,
       "salePrice": 2745.05,
@@ -7839,7 +7885,12 @@
       "slug": "portatil-lenovo-loq-ia-r7-250-16gb-ddr5-ssd-512gb-t-v-rtx-5050-8gb-15-3",
       "sku": "83JG007VLM",
       "brand": "LENOVO",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 4293.19,
       "regularPrice": 4293.19,
       "salePrice": 4293.19,
@@ -7857,7 +7908,12 @@
       "slug": "portatil-lenovo-ryzen-5-7520u-16gb-ddr5-ssd-512gb-15-6-no-os",
       "sku": "82XQ00N6LM",
       "brand": "LENOVO",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2076.69,
       "regularPrice": 2076.69,
       "salePrice": 2076.69,
@@ -7875,7 +7931,12 @@
       "slug": "portatil-lenovo-ryzen-5-7520u-8gb-ddr5-ssd-512gb-15-6-no-os",
       "sku": "82XQ00N5LM",
       "brand": "LENOVO",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 1837.99,
       "regularPrice": 1837.99,
       "salePrice": 1837.99,
@@ -7893,7 +7954,12 @@
       "slug": "portatil-lenovo-ideadpad-slim3-15irh10-i5-13420h-16gb-ssd-512gb-15-3",
       "sku": "83K101FDLM",
       "brand": "LENOVO",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2383.59,
       "regularPrice": 2383.59,
       "salePrice": 2383.59,
@@ -7909,7 +7975,12 @@
       "slug": "portatil-lenovo-v15-g4-amn-ryzen-5-7520u-ssd-256gb-8gb-15-6-freedos",
       "sku": "82YU00X6LM",
       "brand": "LENOVO",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 1687.95,
       "regularPrice": 1687.95,
       "salePrice": 1687.95,
@@ -7927,7 +7998,12 @@
       "slug": "portatil-lenovo-v15-g5-irl-i5-13420h-8gb-ddr5-ssd-512gb-15-6-no-os",
       "sku": "83GW005LLD",
       "brand": "LENOVO",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2097.15,
       "regularPrice": 2097.15,
       "salePrice": 2097.15,
@@ -7947,7 +8023,12 @@
       "slug": "portatil-mlogix-celeron-j4025-128gb-ssd-8gb-ddr4-15-6-fhd-ips-w11",
       "sku": "ML3-146",
       "brand": "MLOGIX",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 869.55,
       "regularPrice": 869.55,
       "salePrice": 869.55,
@@ -7965,7 +8046,12 @@
       "slug": "portatil-msi-katana-15-hx-core-i7-14650hx-16gb-ddr5-ssd-512gb-rtx-5050-8gb-15-6-w11h",
       "sku": "9S7-1587C1-412",
       "brand": "MSI",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 5626.5,
       "regularPrice": 5626.5,
       "salePrice": 5626.5,
@@ -7983,7 +8069,12 @@
       "slug": "portatil-v15-g5-lenovo-i7-13620h-8gb-ddr5-ssd-512gb-15-6-no-os",
       "sku": "83GW005GLD",
       "brand": "LENOVO",
-      "categories": [],
+      "categories": [
+        {
+          "name": "PORTATILES",
+          "slug": "portatiles"
+        }
+      ],
       "price": 2608.65,
       "regularPrice": 2608.65,
       "salePrice": 2608.65,

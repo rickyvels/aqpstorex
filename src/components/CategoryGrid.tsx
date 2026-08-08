@@ -31,7 +31,7 @@ export function CategoryGrid({ categories }: { categories: Category[] }) {
             <span className="text-xs leading-tight font-semibold text-gray-700 group-hover:text-cta">
               {c.name}
             </span>
-            <span className="mt-1 text-[11px] text-gray-400">
+            <span className="mt-1 text-[11px] text-gray-500">
               {c.count} {c.count === 1 ? 'producto' : 'productos'}
             </span>
           </Link>

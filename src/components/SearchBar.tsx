@@ -25,7 +25,7 @@ export function SearchBar({ className = '' }: { className?: string }) {
         onChange={(e) => setQ(e.target.value)}
         placeholder="Buscar producto, marca o SKU…"
         aria-label="Buscar productos"
-        className="min-w-0 flex-1 px-4 py-2.5 text-sm outline-none placeholder:text-gray-400"
+        className="min-w-0 flex-1 px-4 py-2.5 text-sm outline-none placeholder:text-gray-500"
       />
       <button
         type="submit"
