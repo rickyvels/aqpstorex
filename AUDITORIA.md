@@ -24,6 +24,50 @@ implementados y verificados; los demás quedan como recomendación.
 
 ## ALTO impacto
 
+### 0. El acceso reventaba en producción **[HECHO]**
+
+Detectado tras el primer despliegue: en `aqpstorex.vercel.app` el login
+devolvía «Application error: a server-side exception has occurred». En local
+funcionaba, lo que despistaba.
+
+La causa de fondo: **el almacenamiento en archivos no funciona en serverless**.
+El sistema de archivos de una función Vercel es de solo lectura fuera de `/tmp`,
+y `/tmp` es efímero y distinto por instancia. Fallaban tres cosas a la vez:
+
+| Origen | Qué pasaba |
+| --- | --- |
+| `users.ts` | `data/users.json` está en `.gitignore`, no existe en Vercel, y al intentar crearlo lanzaba `EROFS`. |
+| `session.ts` | Sin `SESSION_SECRET` definida, `createSession` lanzaba en producción. |
+| `forms.ts` | Misma escritura imposible en contacto y libro de reclamaciones. |
+
+Los dos primeros se disparaban al pulsar «Acceder», de ahí el síntoma.
+
+Cambios:
+
+- **Almacén de clientes con dos backends.** En local sigue el archivo; en
+  producción se leen de la variable `AQPX_USERS`. La detección es automática
+  (`isWritable()` mira `VERCEL` / `AWS_LAMBDA_FUNCTION_NAME` y la propia
+  variable).
+- **El registro ya no finge persistir.** Cuando el almacén es de solo lectura,
+  `createUser` devuelve `persisted: false` y el mensaje al solicitante dice la
+  verdad: el equipo comercial validará el RUC y enviará los accesos. Encaja con
+  el flujo de aprobación que ya existía.
+- **Los formularios no pueden reventar.** Se entregan por `FORMS_WEBHOOK_URL`
+  si está configurada, si no a disco (solo en local) y, como último recurso, al
+  log del servidor. `recordLead` nunca lanza.
+- **Los errores de configuración se ven.** En vez de una página de error opaca,
+  el formulario muestra un mensaje legible y el detalle real queda en los logs.
+- **La cuenta demo ya no se anuncia en producción.** El recuadro con
+  `20123456789 / demo1234` era visible en el sitio publicado.
+
+Verificable con `npm run smoke:prod`, que levanta el sitio con `VERCEL=1` y sin
+`data/users.json` y comprueba que nada lanza `EROFS`.
+
+> Esto convierte en urgente lo que estaba listado como pendiente 3 del README:
+> el archivo JSON nunca fue una solución de producción. `AQPX_USERS` sirve para
+> una cartera pequeña gestionada a mano; con decenas de clientes toca una base
+> de datos real.
+
 ### 1. El catálogo estaba roto en su clasificación **[HECHO]**
 
 El hallazgo más grave, y no era visual.

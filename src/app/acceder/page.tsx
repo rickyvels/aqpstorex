@@ -51,11 +51,14 @@ export default async function AccederPage({
           ))}
         </ul>
 
-        <div className="mt-8 rounded-md border border-amber-200 bg-amber-50 p-4 text-xs leading-relaxed text-amber-900">
-          <strong className="font-bold">Cuenta de prueba:</strong> RUC <code>20123456789</code> ·
-          contraseña <code>demo1234</code>. Elimínala en <code>data/users.json</code> antes de
-          publicar el sitio.
-        </div>
+        {/* Solo en desarrollo: publicar una credencial conocida es un agujero. */}
+        {process.env.NODE_ENV !== 'production' && (
+          <div className="mt-8 rounded-md border border-amber-200 bg-amber-50 p-4 text-xs leading-relaxed text-amber-900">
+            <strong className="font-bold">Cuenta de prueba (solo local):</strong> RUC{' '}
+            <code>20123456789</code> · contraseña <code>demo1234</code>. En producción los clientes
+            se definen en la variable <code>AQPX_USERS</code>.
+          </div>
+        )}
       </div>
 
       <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm sm:p-8">

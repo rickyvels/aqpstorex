@@ -11,7 +11,9 @@
     "catalog:normalize": "node scripts/normalize.mjs",
     "catalog:images": "node scripts/fetch-images.mjs",
     "smoke": "node scripts/smoke-auth.mjs",
-    "users": "node scripts/users.mjs"
+    "smoke:prod": "node scripts/smoke-serverless.mjs",
+    "users": "node scripts/users.mjs",
+    "users:new": "node scripts/make-user.mjs"
   },
   "dependencies": {
     "jose": "^5.9.6",

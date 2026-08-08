@@ -26,14 +26,45 @@ npm start
 
 ### Variables de entorno
 
-Copia `.env.example` a `.env.local`:
+Copia `.env.example` a `.env.local`. En Vercel van en **Settings → Environment
+Variables**.
 
-| Variable         | Obligatoria      | Descripción                                     |
-| ---------------- | ---------------- | ----------------------------------------------- |
-| `SESSION_SECRET` | Sí en producción | Clave HS256 para firmar la cookie de sesión.     |
+| Variable            | Local | Producción  | Descripción                                                  |
+| ------------------- | ----- | ----------- | ------------------------------------------------------------ |
+| `SESSION_SECRET`    | —     | Obligatoria | Clave HS256 para firmar la cookie de sesión.                   |
+| `AQPX_USERS`        | —     | Obligatoria | Clientes mayoristas como array JSON. Ver abajo.                |
+| `FORMS_WEBHOOK_URL` | —     | Recomendada | Destino de contacto y libro de reclamaciones.                  |
 
-Sin `SESSION_SECRET`, el arranque en producción falla a propósito. En desarrollo se
-usa una clave fija insegura.
+En desarrollo no hace falta ninguna: se usa una clave fija insegura y
+`data/users.json`.
+
+## Despliegue en serverless (Vercel)
+
+Una función serverless tiene el **sistema de archivos en solo lectura**, así que
+`data/users.json` no existe ni se puede crear. Por eso en producción los
+clientes se leen de `AQPX_USERS` y los formularios se entregan por webhook.
+
+Para dar de alta un cliente:
+
+```bash
+npm run users:new
+```
+
+Pide los datos por consola, convierte la contraseña en hash y devuelve el JSON
+listo para pegar en `AQPX_USERS`. La contraseña nunca se guarda en claro ni sale
+de tu máquina. Para varios clientes, junta los objetos en un mismo array.
+
+Comprobar que el despliegue funcionará antes de subirlo:
+
+```bash
+npm run build
+npm run smoke:prod
+```
+
+Levanta el sitio con `VERCEL=1` y sin `data/users.json` —las condiciones exactas
+de producción— y verifica que las páginas renderizan, que el área privada sigue
+protegida, que el acceso funciona con `AQPX_USERS` y que no aparece ningún
+`EROFS` en los logs.
 
 ---
 

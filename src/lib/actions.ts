@@ -2,8 +2,9 @@
 
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
-import { createUser, findByRuc, verifyPassword } from './users';
-import { SESSION_COOKIE, cookieOptions, createSession } from './session';
+import { createUser, findByRuc, listUsers, verifyPassword } from './users';
+import { SESSION_COOKIE, cookieOptions, createSession, isSessionConfigured } from './session';
+import { recordLead } from './forms';
 
 export type FormState = { error?: string; success?: string };
 
@@ -13,6 +14,10 @@ function safeRedirect(value: FormDataEntryValue | null): string {
   return target.startsWith('/') && !target.startsWith('//') ? target : '/';
 }
 
+const MISCONFIGURED =
+  'El acceso no está disponible por una incidencia de configuración del servidor. ' +
+  'Escríbenos por WhatsApp y lo resolvemos.';
+
 export async function loginAction(_prev: FormState, formData: FormData): Promise<FormState> {
   const ruc = String(formData.get('ruc') ?? '').trim();
   const password = String(formData.get('password') ?? '');
@@ -20,36 +25,74 @@ export async function loginAction(_prev: FormState, formData: FormData): Promise
 
   if (!ruc || !password) return { error: 'Ingresa tu RUC y contraseña.' };
 
-  const user = findByRuc(ruc);
-  // Mismo mensaje para usuario inexistente y contraseña incorrecta: no revela
-  // qué RUC están registrados.
-  if (!user || !verifyPassword(password, user.passwordHash)) {
-    return { error: 'RUC o contraseña incorrectos.' };
+  let token: string;
+  try {
+    if (!isSessionConfigured()) {
+      console.error('[aqpstorex] Falta SESSION_SECRET: no se pueden emitir sesiones.');
+      return { error: MISCONFIGURED };
+    }
+
+    if (listUsers().length === 0) {
+      console.error(
+        '[aqpstorex] No hay clientes cargados. En producción defínelos en la variable AQPX_USERS.',
+      );
+      return { error: MISCONFIGURED };
+    }
+
+    const user = findByRuc(ruc);
+    // Mismo mensaje para usuario inexistente y contraseña incorrecta: no revela
+    // qué RUC están registrados.
+    if (!user || !verifyPassword(password, user.passwordHash)) {
+      return { error: 'RUC o contraseña incorrectos.' };
+    }
+
+    if (!user.approved) {
+      return { error: 'Tu cuenta aún está pendiente de aprobación. Te contactaremos por correo.' };
+    }
+
+    token = await createSession({ ruc: user.ruc, razonSocial: user.razonSocial });
+    (await cookies()).set(SESSION_COOKIE, token, cookieOptions);
+  } catch (error) {
+    console.error('[aqpstorex] Error inesperado al iniciar sesión:', error);
+    return { error: MISCONFIGURED };
   }
 
-  if (!user.approved) {
-    return { error: 'Tu cuenta aún está pendiente de aprobación. Te contactaremos por correo.' };
-  }
-
-  const token = await createSession({ ruc: user.ruc, razonSocial: user.razonSocial });
-  (await cookies()).set(SESSION_COOKIE, token, cookieOptions);
-
+  // Fuera del try: redirect() señaliza lanzando y no debe capturarse.
   redirect(next);
 }
 
 export async function registerAction(_prev: FormState, formData: FormData): Promise<FormState> {
-  const result = createUser({
+  const input = {
     ruc: String(formData.get('ruc') ?? ''),
     razonSocial: String(formData.get('razonSocial') ?? ''),
     email: String(formData.get('email') ?? ''),
     phone: String(formData.get('phone') ?? ''),
     password: String(formData.get('password') ?? ''),
-  });
-
-  if (!result.ok) return { error: result.error };
-
-  return {
-    success:
-      'Solicitud enviada. Nuestro equipo comercial validará tus datos y activará tu cuenta en un plazo de 24 horas hábiles.',
   };
+
+  try {
+    const result = createUser(input);
+    if (!result.ok) return { error: result.error };
+
+    // La solicitud se registra siempre, se haya podido persistir la cuenta o no.
+    await recordLead('registro', {
+      ruc: input.ruc.trim(),
+      razonSocial: input.razonSocial.trim(),
+      email: input.email.trim(),
+      phone: input.phone.trim(),
+      persisted: String(result.persisted),
+    });
+
+    return {
+      success: result.persisted
+        ? 'Solicitud enviada. Nuestro equipo comercial validará tus datos y activará tu cuenta en un plazo de 24 horas hábiles.'
+        : 'Solicitud recibida. Nuestro equipo comercial validará tu RUC y te enviará los datos de acceso por correo en un plazo de 24 horas hábiles.',
+    };
+  } catch (error) {
+    console.error('[aqpstorex] Error inesperado en el registro:', error);
+    return {
+      error:
+        'No pudimos procesar tu solicitud. Inténtalo de nuevo o escríbenos por WhatsApp y te damos de alta.',
+    };
+  }
 }

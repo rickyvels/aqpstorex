@@ -14,3 +14,7 @@ data/images.failures.json
 
 # Base de usuarios local de desarrollo
 data/users.json
+data/users.json.bak
+
+# Envíos de formularios recibidos en local
+data/submissions.jsonl

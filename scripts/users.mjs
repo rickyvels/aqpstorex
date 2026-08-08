@@ -13,7 +13,9 @@ import { join } from 'node:path';
 const FILE = join(process.cwd(), 'data', 'users.json');
 
 if (!existsSync(FILE)) {
-  console.error('No existe data/users.json todavía. Arranca el sitio y registra un cliente en /registro.');
+  console.error('No existe data/users.json todavía. Arranca el sitio con `npm run dev` y vuelve a intentarlo.');
+  console.error('Este script gestiona el almacén LOCAL. En producción los clientes van en AQPX_USERS');
+  console.error('(genera la entrada con: node scripts/make-user.mjs).');
   process.exit(1);
 }
 
