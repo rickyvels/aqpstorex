@@ -74,6 +74,27 @@ const nuevo = createUser({
 assert('el registro no lanza en solo lectura', nuevo.ok === true);
 assert('el registro informa que no persistió', nuevo.ok && nuevo.persisted === false);
 
+// Pegar un cliente suelto sin corchetes es el error natural al configurar la
+// variable a mano; tumbó el acceso en producción una vez.
+console.log('\n--- Formas aceptadas de AQPX_USERS ---');
+{
+  const { diagnoseUsers } = await import('../src/lib/users.ts');
+
+  const conValor = (valor) => {
+    process.env.AQPX_USERS = valor;
+    return diagnoseUsers();
+  };
+
+  assert('array de clientes', conValor(JSON.stringify([testUser])).estado === 'ok');
+  assert('objeto suelto sin corchetes', conValor(JSON.stringify(testUser)).estado === 'ok');
+  assert('array vacío se detecta', conValor('[]').estado === 'lista-vacia');
+  assert('JSON inválido se detecta', conValor('{no es json').estado === 'json-invalido');
+  assert('objeto sin passwordHash se detecta', conValor('{"ruc":"20000000001"}').estado === 'sin-entradas-validas');
+  assert('variable vacía se detecta', conValor('').estado === 'variable-ausente');
+
+  process.env.AQPX_USERS = env.AQPX_USERS; // restaurar para el servidor
+}
+
 // ------------------------------------------------------------ servidor ----
 
 console.log('\nArrancando `next start` con el entorno de Vercel simulado…');

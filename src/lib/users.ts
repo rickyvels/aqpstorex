@@ -58,14 +58,28 @@ export function verifyPassword(password: string, stored: string): boolean {
 
 // --------------------------------------------------------------- backends ----
 
-/** Clientes definidos por entorno. Formato: array JSON de User. */
+const isUser = (u: unknown): u is User =>
+  typeof (u as User)?.ruc === 'string' && typeof (u as User)?.passwordHash === 'string';
+
+/**
+ * Normaliza el contenido de AQPX_USERS a una lista de clientes.
+ *
+ * Se acepta tanto el array `[{…}]` como un objeto suelto `{…}`: pegar un único
+ * cliente sin los corchetes es el error natural al configurar la variable a
+ * mano, y hacerlo fallar en silencio deja el acceso caído sin pista alguna.
+ */
+function normalizeUsers(parsed: unknown): User[] {
+  if (Array.isArray(parsed)) return parsed.filter(isUser);
+  if (isUser(parsed)) return [parsed];
+  return [];
+}
+
+/** Clientes definidos por entorno. */
 function readFromEnv(): User[] {
   const raw = process.env.AQPX_USERS;
   if (!raw?.trim()) return [];
   try {
-    const parsed = JSON.parse(raw);
-    if (!Array.isArray(parsed)) throw new Error('AQPX_USERS no es un array');
-    return parsed.filter((u): u is User => typeof u?.ruc === 'string' && typeof u?.passwordHash === 'string');
+    return normalizeUsers(JSON.parse(raw));
   } catch (error) {
     console.error('[aqpstorex] AQPX_USERS no se pudo interpretar:', error);
     return [];
@@ -141,12 +155,16 @@ export type UsersDiagnosis =
   | 'archivo-local'
   | 'variable-ausente'
   | 'json-invalido'
-  | 'no-es-array'
   | 'lista-vacia'
   | 'sin-entradas-validas'
   | 'ok';
 
-export function diagnoseUsers(): { estado: UsersDiagnosis; total: number } {
+export function diagnoseUsers(): {
+  estado: UsersDiagnosis;
+  total: number;
+  /** Forma del JSON recibido, para saber qué se pegó realmente en la variable. */
+  forma?: string;
+} {
   if (isWritable()) return { estado: 'archivo-local', total: readFromFile().length };
 
   const raw = process.env.AQPX_USERS;
@@ -159,13 +177,13 @@ export function diagnoseUsers(): { estado: UsersDiagnosis; total: number } {
     return { estado: 'json-invalido', total: 0 };
   }
 
-  if (!Array.isArray(parsed)) return { estado: 'no-es-array', total: 0 };
-  if (parsed.length === 0) return { estado: 'lista-vacia', total: 0 };
+  const forma = Array.isArray(parsed) ? `array(${parsed.length})` : typeof parsed;
+  if (Array.isArray(parsed) && parsed.length === 0) return { estado: 'lista-vacia', total: 0, forma };
 
-  const total = readFromEnv().length;
-  // Entradas presentes pero sin ruc o passwordHash utilizables.
-  if (total === 0) return { estado: 'sin-entradas-validas', total: 0 };
-  return { estado: 'ok', total };
+  const total = normalizeUsers(parsed).length;
+  // JSON válido pero sin entradas con ruc y passwordHash utilizables.
+  if (total === 0) return { estado: 'sin-entradas-validas', total: 0, forma };
+  return { estado: 'ok', total, forma };
 }
 
 export function findByRuc(ruc: string): User | undefined {

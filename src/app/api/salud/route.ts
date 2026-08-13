@@ -27,6 +27,7 @@ export async function GET() {
       claveDeSesion: sesion ? 'definida' : 'ausente',
       clientes: usuarios.estado,
       totalClientes: usuarios.total,
+      formaDelValor: usuarios.forma ?? null,
       formularios: process.env.FORMS_WEBHOOK_URL?.trim() ? 'webhook' : 'sin-canal',
     },
     {
